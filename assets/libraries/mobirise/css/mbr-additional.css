@@ -1098,7 +1098,7 @@ pre {
     display: -ms-flexbox !important;
     display: flex !important;
     width: 100%;
-    background: url(../../../images/bgnav.png) center no-repeat;
+    /*background: url(../../../images/bgnav.png) center no-repeat;*/
   }
   .navbar-toggleable .navbar-toggler {
     display: none;
@@ -1159,7 +1159,7 @@ pre {
     display: -ms-flexbox !important;
     display: flex !important;
     width: 100%;
-    background: url(../../../images/bgnav.png) center no-repeat;
+    /*background: url(../../../images/bgnav.png) center no-repeat;*/
   }
   .navbar-toggleable-sm .navbar-toggler {
     display: none;
@@ -1220,7 +1220,7 @@ pre {
     display: -ms-flexbox !important;
     display: flex !important;
     width: 100%;
-    background: url(../../../images/bgnav.png) center no-repeat;
+    /*background: url(../../../images/bgnav.png) center no-repeat;*/
   }
   .navbar-toggleable-md .navbar-toggler {
     display: none;
@@ -1281,7 +1281,7 @@ pre {
     display: -ms-flexbox !important;
     display: flex !important;
     width: 100%;
-    background: url(../../../images/bgnav.png) center no-repeat;
+    /*background: url(../../../images/bgnav.png) center no-repeat;*/
   }
   .navbar-toggleable-lg .navbar-toggler {
     display: none;
@@ -1339,7 +1339,7 @@ pre {
   display: -ms-flexbox !important;
   display: flex !important;
   width: 100%;
-  background: url(../../../images/bgnav.png) center no-repeat;
+  /*background: url(../../../images/bgnav.png) center no-repeat;*/
 }
 .navbar-toggleable-xl .navbar-toggler {
   display: none;
