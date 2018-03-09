@@ -165,11 +165,23 @@ section {
   .media-container-column > * {
     width: 100%; }
 
+.mbr-section-btn-page {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -118px !important;
+}
+
 @media (min-width: 992px) {
   .media-container-row {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap; } }
+    flex-wrap: nowrap; }
+
+  .mbr-section-btn-page {
+    display: none;
+  }
+}
 figure {
   overflow: hidden; }
 
@@ -210,6 +222,9 @@ figure[mbr-media-size] {
 
   .media {
     width: auto; }
+
+  .mbr-section-btn-nav {
+    display: none; }
 
   .mbr-figure {
     width: 100% !important; } }

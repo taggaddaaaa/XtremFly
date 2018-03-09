@@ -1441,7 +1441,7 @@ body {
 .cid-qJWKHrsea5 .navbar-toggleable-sm .navbar-collapse {
   justify-content: flex-end;
   -webkit-justify-content: flex-end;
-  padding-right: 5rem;
+  /*padding-right: 5rem;*/
   width: auto;
 }
 .cid-qJWKHrsea5 .navbar-toggleable-sm .navbar-collapse .navbar-nav {
