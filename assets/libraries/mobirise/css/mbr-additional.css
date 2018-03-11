@@ -540,6 +540,10 @@ a.text-black:focus {
 .mbr-section-btn a.btn:not(.btn-form).btn-lang-en {
   background-color: transparent;
 }
+.mbr-section-btn a.btn:not(.btn-form).btn-book-flight:hover,
+.mbr-section-btn a.btn:not(.btn-form).btn-lang-en {
+    box-shadow: none;
+}
 .mbr-section-btn a.btn:not(.btn-form):hover {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
 }
