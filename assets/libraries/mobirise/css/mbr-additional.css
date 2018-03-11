@@ -1392,6 +1392,7 @@ body {
   justify-content: center;
   padding: 0.7rem 0 !important;
   margin: 0rem .65rem !important;
+  color: #000;
 }
 .cid-qJWKHrsea5 .nav-item:focus,
 .cid-qJWKHrsea5 .nav-link:focus {
@@ -1746,7 +1747,8 @@ body {
 }
 .cid-qJWKHrsea5 .nav-link:hover,
 .cid-qJWKHrsea5 .dropdown-item:hover {
-  color: #232323 !important;
+  color: #149dcc;
+  /*color: #232323 !important;*/
 }
 .cid-qJWKGr3dEn {
   background-image: url("../../../images/mbr-1620x1080.jpg");
