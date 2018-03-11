@@ -541,7 +541,7 @@ a.text-black:focus {
   background-color: transparent;
 }
 .mbr-section-btn a.btn:not(.btn-form).btn-book-flight:hover,
-.mbr-section-btn a.btn:not(.btn-form).btn-lang-en {
+.mbr-section-btn a.btn:not(.btn-form).btn-lang-en:hover {
     box-shadow: none;
 }
 .mbr-section-btn a.btn:not(.btn-form):hover {
