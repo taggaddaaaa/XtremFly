@@ -86,7 +86,7 @@ section h2 {
   border-width: 2px;
   font-style: normal;
   letter-spacing: 1px;
-  margin: .4rem .8rem;
+  /*margin: .4rem .8rem;*/
   white-space: normal;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -529,11 +529,16 @@ a.text-black:focus {
 }
 .mbr-section-btn a.btn:not(.btn-form) {
   /*border-radius: 100px;*/
+  border: 0;
+}
+.mbr-section-btn a.btn:not(.btn-form).btn-book-flight {
   background: url("../../../images/brush-navigation.png") no-repeat;
   background-size: 100% 100%;
   width: 262px;
   height: 50px;
-  border: 0;
+}
+.mbr-section-btn a.btn:not(.btn-form).btn-lang-en {
+  background-color: transparent;
 }
 .mbr-section-btn a.btn:not(.btn-form):hover {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
