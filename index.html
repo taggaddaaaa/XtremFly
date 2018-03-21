@@ -8,7 +8,7 @@
 
     <meta charset="UTF-8"/>
 
-    <title>XtremFly - Parachute ascensionnel.</title>
+    <title>XtremFly - Parachute ascensionnel</title>
 
     <!-- Search Engine -->
     <meta name="description"
@@ -27,7 +27,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Loc'karting - Circuit de karting de Pérols.">
+    <meta name="twitter:title" content="XtremFly - Parachute ascensionnel.">
     <meta name="twitter:description"
           content="Avec XTREMFLY envolez-vous et goûtez au plaisir extrême du parachute ascensionnel en découvrant
           les merveilles du bassin d’Arcachon."
@@ -37,7 +37,7 @@
     <meta name="twitter:image:src" content="http://www.xtremfly.fr/assets/images/img-header.jpg">
 
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta property="og:title" content="Loc'karting - Circuit de karting de Pérols."/>
+    <meta property="og:title" content="XtremFly - Parachute ascensionnel."/>
     <meta property="og:description"
           content="Avec XTREMFLY envolez-vous et goûtez au plaisir extrême du parachute ascensionnel en découvrant
           les merveilles du bassin d’Arcachon."
@@ -71,6 +71,7 @@
 
     <!-- SmartLook -->
     <script type="text/javascript">
+      "use strict";
         window.smartlook || (function (d) {
             var o = smartlook = function () {
                 o.api.push(arguments)
@@ -563,6 +564,7 @@
     </div>
 </section>
 
+<!--BUTTON STICK ON BOTTOM: 'RESERVER UN VOL'-->
 <div class="navbar-buttons mbr-section-btn mbr-section-btn-page">
     <a class="btn btn-sm btn-primary btn-book-flight display-4" href="vues/pros.html">RESERVER UN VOL</a>
 </div>
@@ -571,9 +573,8 @@
 <!------------------------------------------->
 <!--                MODALS                 -->
 <!------------------------------------------->
-<!-- MODAL 1 -->
-<div class="modal fade" id="modal-1" tabindex="-1" role="dialog"
-     aria-labelledby="Horaires, Jours d'Ouverture, Accès et Tarifs." aria-hidden="true">
+<!-- MODAL HORAIRES -->
+<div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="Horaires, Jours d'Ouverture, Accès et Tarifs." aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -616,7 +617,7 @@
     </div>
 </div>
 
-<!-- MODAL 2 -->
+<!-- MODAL VUE EXCEPTIONNELLE -->
 <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="Une vue exceptionnelle à 50m d'altitude" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -659,7 +660,7 @@
     </div>
 </div>
 
-<!-- MODAL 3 -->
+<!-- MODAL SOLO DUO TRIO -->
 <div class="modal fade" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="Seul ou à plusieurs"
      aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -702,7 +703,7 @@
     </div>
 </div>
 
-<!-- MODAL 4 -->
+<!-- MODAL SECURITE -->
 <div class="modal fade" id="modal-4" tabindex="-1" role="dialog" aria-labelledby="En toute sécurité" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -761,7 +762,7 @@
     </div>
 </div>
 
-<!-- MODAL 5 -->
+<!-- MODAL BON A SAVOIR -->
 <div class="modal fade" id="modal-5" tabindex="-1" role="dialog" aria-labelledby="Bon à savoir" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -800,6 +801,64 @@
         </div>
     </div>
 </div>
+
+<!--MODAL Cookies-->
+<div class="modal fade" id="modal-cookies" tabindex="-1" role="dialog" aria-labelledby="Cookies" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitleCookies">Cookies</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="mbr-text mbr-fonts-style display-7"></p>
+                    <hr>
+                    <p></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL CONDITIONS GENERALES DE VENTE-->
+<div class="modal fade" id="modal-privacy" tabindex="-1" role="dialog" aria-labelledby="Conditions générales de ventes" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitlePrivacy">Conditions générales de ventes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="mbr-text mbr-fonts-style display-7"></p>
+                    <hr>
+                    <p></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!------------------------------------------->
 <!--             END   MODALS              -->
 <!------------------------------------------->
@@ -807,6 +866,7 @@
 
 <!--Scripts Google Maps-->
 <script>
+  "use strict";
     function initMap() {
         const dep1 = {lat: 44.664845, lng: -1.168768};
         const dep2 = {lat: 44.697794, lng: -1.228092};
@@ -952,7 +1012,7 @@
 <input name="animation" type="hidden">
 <input name="cookieData" type="hidden"
        data-cookie-text="Nous utilisons des cookies pour vous offrir une meilleure expérience.
-       Lisez notre <a href='./vues/privacy.html'>police de cookies</a>."
+       Lisez notre <a href='#modal-cookies'>police de cookies</a>."
 >
 </body>
 </html>
