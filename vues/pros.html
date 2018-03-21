@@ -76,7 +76,7 @@
     <!--TODO: import google analytics-->
 </head>
 
-<body>
+<body id="page-top">
 <section class="menu cid-qJWKHrsea5" once="menu" id="navigation">
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
         <button class="navbar-toggler navbar-toggler-right"
@@ -121,8 +121,8 @@
                        aria-expanded="false"
                     >GROUPES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Groupes / CE</a>
-                        <a class="dropdown-item" href="#">EVJF / EVJG</a>
+                        <a class="dropdown-item" href="pros.html">Groupes / CE</a>
+                        <a class="dropdown-item" href="evj.html">EVJF / EVJG</a>
                         <a class="dropdown-item" href="anniversaire.html">Anniversaire</a>
                     </div>
                 </li>
@@ -149,6 +149,80 @@
 </section>
 
 
+<!------------------------------------------->
+<!-- BUTTON STICK ON BOTTOM ON MOBILE SIZE -->
+<!------------------------------------------->
+<div class="navbar-buttons mbr-section-btn mbr-section-btn-page">
+    <a class="btn btn-sm btn-primary btn-book-flight display-4"
+       href="https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF"
+       onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"
+    >RESERVER UN VOL</a>
+</div>
+
+<!------------------------------------------->
+<!--                MODALS                 -->
+<!------------------------------------------->
+<!--MODAL Cookies-->
+<div class="modal fade" id="modal-cookies" tabindex="-1" role="dialog" aria-labelledby="Cookies" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitleCookies">Cookies</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="mbr-text mbr-fonts-style display-7"></p>
+                    <hr>
+                    <p></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL CONDITIONS GENERALES DE VENTE-->
+<div class="modal fade" id="modal-privacy" tabindex="-1" role="dialog" aria-labelledby="Conditions générales de ventes" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitlePrivacy">Conditions générales de ventes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="mbr-text mbr-fonts-style display-7"></p>
+                    <hr>
+                    <p></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------------->
+<!--             END   MODALS              -->
+<!------------------------------------------->
+
 <script src="../assets/libraries/jQuery/jquery-3.2.1.slim.min.js"></script>
 <script src="../assets/libraries/popper/popper.min.js"></script>
 <script src="../assets/libraries/tether/tether.min.js"></script>
@@ -172,7 +246,7 @@
 <input name="animation" type="hidden">
 <input name="cookieData" type="hidden"
        data-cookie-text="Nous utilisons des cookies pour vous offrir une meilleure expérience.
-       Lisez notre <a href='./privacy.html'>police de cookies</a>."
+       Lisez notre <a href='#modal-cookies'>police de cookies</a>."
 >
 </body>
 </html>
