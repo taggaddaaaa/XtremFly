@@ -144,6 +144,14 @@ section {
     width: 400px; }
 
 .media-container-column {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #1d2124;
+  opacity:0.95;
+  padding:0 50px 50px 50px;
+  border-radius: 25px;
+  /*border-bottom-right-radius: 25px;*/
+  /*border-bottom-left-radius: 25px;*/
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
