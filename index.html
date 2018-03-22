@@ -55,6 +55,9 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="assets/images/favicon.png" type="image/x-icon">
 
+    <!--manifest-->
+    <link rel="manifest" href="/manifest.json">
+
     <!--Stylesheet imports-->
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
     <link rel="stylesheet" href="assets/libraries/tether/tether.min.css">
@@ -389,28 +392,28 @@
                 </div>
             </div>
 
-            <div class="card  col-12 col-md-6 col-lg-4">
-                <div class="card-box align-center">
-                    <h4 class="card-title mbr-fonts-style display-7">
-                        Session Trio
-                        <br>
-                        3 Adultes
-                    </h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        Plus on est nombreux, plus on se régale!
-                        <br>
-                        <br>
-                        On prends la même formule avec un tarif avantageux pour une session de 3 adultes.
-                        <br>
-                    </p>
-                    <div class="mbr-section-btn text-center">
-                        <a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF"
-                           class="display-4 text-turquoise"
-                           onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"
-                        >150 €</a>
-                    </div>
-                </div>
-            </div>
+            <!--<div class="card  col-12 col-md-6 col-lg-4">-->
+                <!--<div class="card-box align-center">-->
+                    <!--<h4 class="card-title mbr-fonts-style display-7">-->
+                        <!--Session Trio-->
+                        <!--<br>-->
+                        <!--3 Adultes-->
+                    <!--</h4>-->
+                    <!--<p class="mbr-text mbr-fonts-style display-7">-->
+                        <!--Plus on est nombreux, plus on se régale!-->
+                        <!--<br>-->
+                        <!--<br>-->
+                        <!--On prends la même formule avec un tarif avantageux pour une session de 3 adultes.-->
+                        <!--<br>-->
+                    <!--</p>-->
+                    <!--<div class="mbr-section-btn text-center">-->
+                        <!--<a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF"-->
+                           <!--class="display-4 text-turquoise"-->
+                           <!--onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"-->
+                        <!--&gt;150 €</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
@@ -454,7 +457,13 @@
                     <div class="inst__content">
                         <!-- LightWidget WIDGET -->
                         <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-                        <iframe src="//lightwidget.com/widgets/42328cb3d6ca5e929148d2843e5e2a09.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                        <iframe src="//lightwidget.com/widgets/42328cb3d6ca5e929148d2843e5e2a09.html"
+                                title="lightwidget"
+                                scrolling="no"
+                                allowtransparency="true"
+                                class="lightwidget-widget"
+                                style="width: 100%; border: 0; overflow: hidden;"
+                        ></iframe>
                     </div>
                 </div>
             </div>
@@ -470,7 +479,7 @@
             <div class="title col-12 col-lg-8">
                 <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">NOUS CONTACTER</h2>
                 <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">
-                    Nous répondons à toutes vos questions au <a href="tel:0673824102" title="0673824102">06 73 82 41
+                    Nous répondons à toutes vos questions au <a href="tel:0673824102" title="0673824102" name="phone">06 73 82 41
                     02</a> ou via le formulaire de contact:
                 </h3>
             </div>
@@ -578,10 +587,10 @@
                     RETROUVEZ-NOUS SUR LES RESEAUX SOCIAUX !
                 </h2>
                 <div class="social-list pl-0 mb-0">
-                    <a href="https://www.facebook.com/XtremFly" target="_blank">
+                    <a href="https://www.facebook.com/XtremFly" target="_blank" name="facebook">
                         <span class="px-2 socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                     </a>
-                    <a href="https://www.instagram.com/xtremfly_arcachon/" target="_blank">
+                    <a href="https://www.instagram.com/xtremfly_arcachon/" target="_blank" name="instagram">
                         <span class="px-2 mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
                     </a>
                     <!--TODO: LIER la vraie chaine youtube-->
@@ -635,7 +644,7 @@
                         Gagnez du temps en commandant votre vol sur notre boutique en ligne et réservez votre
                         session au 
                         <br>
-                        <a href="tel:0673824102" title="0673824102">06 73 82 41 02</a>.
+                        <a href="tel:0673824102" title="0673824102" name="telephone">06 73 82 41 02</a>.
                         <br>
                         Nous proposons 5 points de départs différents sur le bassin pour vous rendre la vie plus
                         facile: 2 du côté du Cap-Ferret et 3 du côté d'Arcachon.
@@ -719,9 +728,9 @@
                         en famille. 
                         <br>
                         Nous recevons également
-                        <a href="#" title="Groupes">les groupes</a>,
-                        <a href="#" title="CE">les CE</a> et
-                        <a href="#" title="EVJF/G">les enterrements de vie de jeune fille/garçon</a>
+                        <a href="#" title="Groupes" name="pros">les groupes</a>,
+                        <a href="#" title="CE" name="entreprise">les CE</a> et
+                        <a href="#" title="EVJF/G" name="evjf/g">les enterrements de vie de jeune fille/garçon</a>
                         , même déguisé!
                     </p>
                     <hr>

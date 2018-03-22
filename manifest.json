@@ -1,0 +1,12 @@
+{
+	"short_name": "XtremFly",
+	"name": "XtremFly",
+	"icons": [
+		{
+			"src": "assets/images/favicon.png",
+			"type": "image/png",
+			"sizes": "48x48"
+		}
+	],
+	"start_url": "index.html?launcher=true"
+}
