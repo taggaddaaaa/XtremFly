@@ -40,6 +40,8 @@ body {
 .display-5 {
   font-family: 'Rubik', sans-serif;
   font-size: 1rem;
+  color: #fff;
+  margin-top: 50px;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
@@ -456,6 +458,9 @@ section h2 {
   background-color: #ffffff;
   border-color: #ffffff;
 }
+.text-turquoise {
+  color: #0EFAFA !important;
+}
 .text-primary {
   color: #0EFAFA !important;
 }
@@ -677,13 +682,14 @@ a:hover {
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
+    border: 2px solid #0EFAFA;
 }
 .form-control > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .form-control,
 .form-control:focus {
-  border: 1px solid #e8e8e8;
+  border: 2px solid #0EFAFA;
 }
 .form-active .form-control:invalid {
   border-color: red;
@@ -1917,15 +1923,17 @@ body {
 .cid-qJX5qkvUGN {
   padding-top: 105px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background-color: #1d2124;
 }
 .cid-qJX5qkvUGN .mbr-section-subtitle {
   color: #767676;
 }
 .cid-qJWLCqu0ol {
-  padding-top: 0px;
+  padding-top: 50px;
   padding-bottom: 75px;
-  background-color: #ffffff;
+  /*background-image: url(../../../images/bg-9.png);*/
+  background-color: #1d2124;
 }
 .cid-qJWLCqu0ol h4 {
   font-weight: 500;
@@ -1947,7 +1955,7 @@ body {
   color: #ffffff;
 }
 .cid-qJWLCqu0ol .card-box {
-  background: url('../../../images/tarif-degrade-blanc-bleu.png');
+  background: url('../../../images/bg-tarifs.png');
   background-size: 100% 100%;
   color: #000;
 }
@@ -1958,21 +1966,28 @@ body {
 }
 .cid-qJWLCqu0ol .card-box .card-title {
   margin: 0;
-  padding: 2rem 2rem 0 2rem;
+  padding: 3rem 2rem 0 2rem;
+  /*color: #0EFAFA;*/
+  font-size: 32px;
+  font-family: 'Baloo Thambi', cursive;
+  background-image: url(../../../images/bgnav.png);
 }
 .cid-qJWLCqu0ol .card-box .mbr-text {
   margin-bottom: 0;
   padding: 2rem 2rem 0 2rem;
+  color: #fff;
 }
 .cid-qJWLCqu0ol .card-box .mbr-section-btn {
   padding-top: 1rem;
 }
 .cid-qJWLCqu0ol .card-box .mbr-section-btn a {
-  margin-top: 1rem;
-  margin-bottom: 0;
-  padding: .5rem 1rem;
-  background: #FFF;
-  border: 1px solid #000;
+  /*margin-top: 1rem;*/
+  /*margin-bottom: 0;*/
+  /*padding: .5rem 1rem;*/
+  /*background: #FFF;*/
+  /*border: 1px solid #0EFAFA;*/
+  font-size: 3rem;
+
 }
 .cid-qJWMa4qhrc {
   padding-top: 105px;

@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 .display-1, .display-2, .display-3, .display-4 {
   line-height: 1;
-  word-break: break-word;
+  /*word-break: break-word;*/
   word-wrap: break-word; }
 
 b, strong {
@@ -53,9 +53,9 @@ body {
   position: relative; }
 
 section {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background: no-repeat 50% 50%;
+  background-size: cover;
+}
   section .mbr-background-video,
   section .mbr-background-video-preview {
     position: absolute;
