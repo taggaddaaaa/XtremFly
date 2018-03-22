@@ -1811,14 +1811,21 @@ body {
   /*background-image: url("../../../images/bg2.jpg");*/
   /*opacity:0.75;*/
 }
-.cid-qJWPCUBxW1 .mbr-section-subtitle {
-  color: #767676;
-}
+
 .cid-qJWLpuzoGc {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  /*background-image: url(../../../images/bg8.jpg);*/
+  /*background-image: url(../../../images/6560_Fill_800_800.jpg);*/
 }
+
+.cid-qJWLpuzoGc .medias {
+  background-color: #ffffff;
+  /*background-image: url(../../../images/bg8.jpg);*/
+  /*background-image: url(../../../images/6560_Fill_800_800.jpg);*/
+}
+
 .cid-qJWLpuzoGc .card-img {
   background-color: #fff;
 }
