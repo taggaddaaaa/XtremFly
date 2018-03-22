@@ -8,5 +8,9 @@
 			"sizes": "48x48"
 		}
 	],
-	"start_url": "index.html?launcher=true"
+	"start_url": "index.html?launcher=true",
+	"background_color": "#0EFAFA",
+	"theme_color": "#0EFAFA",
+	"display": "standalone",
+	"orientation": "portrait"
 }

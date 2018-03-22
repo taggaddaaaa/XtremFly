@@ -1802,7 +1802,9 @@ body {
   /*color: #232323 !important;*/
 }
 .cid-qJWKGr3dEn {
-  background-image: url("../../../images/2018-02-25-PHOTO-00000064.jpg");
+  background-image: url("../../../images/Dune-du-Pilat-N2289.jpg");
+  /*opacity: 0.75;*/
+  /*background-image: url("../../../images/2018-02-25-PHOTO-00000064.jpg");*/
 }
 .cid-qJWPCUBxW1 {
   padding-top: 105px;
@@ -1940,7 +1942,8 @@ body {
   padding-top: 50px;
   padding-bottom: 75px;
   /*background-image: url(../../../images/bg-9.png);*/
-  background-color: #1d2124;
+  background-image: url(../../../images/123.jpg);
+  /*background-color: #1d2124;*/
 }
 .cid-qJWLCqu0ol h4 {
   font-weight: 500;
@@ -1999,7 +2002,7 @@ body {
 .cid-qJWMa4qhrc {
   padding-top: 105px;
   padding-bottom: 60px;
-  background-image: url("../../../images/bg8.jpg");
+  /*background-image: url("../../../images/bg8.jpg");*/
 }
 .cid-qJWMa4qhrc .title {
     background-color: #1d2124;
@@ -2030,8 +2033,8 @@ body {
   text-align: center;
 }
 .cid-qJWMuQiy1n {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background: linear-gradient(0deg, #0EFAFA, #ffffff);
 }
 .cid-qJWMuQiy1n .mbr-iconfont-social{
