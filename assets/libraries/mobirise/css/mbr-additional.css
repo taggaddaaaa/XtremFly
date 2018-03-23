@@ -636,9 +636,9 @@ a:hover {
 .note-check a[data-value=Rubik] {
   font-style: normal;
 }
-.mbr-arrow a {
-  color: #ffffff;
-}
+/*.mbr-arrow a {*/
+  /*color: #ffffff;*/
+/*}*/
 @media (max-width: 767px) {
   .mbr-arrow {
     display: none;
@@ -1402,7 +1402,8 @@ body {
 }
 .cid-qJWKHrsea5 .navbar {
   padding: .5rem 1rem;
-  background: #ffffff;
+  background-image: url(../../../images/123.jpg);
+  /*background: #ffffff;*/
   transition: none;
   min-height: 77px;
 }
