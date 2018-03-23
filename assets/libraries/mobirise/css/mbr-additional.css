@@ -1798,7 +1798,7 @@ body {
 }
 .cid-qJWKHrsea5 .nav-link:hover,
 .cid-qJWKHrsea5 .dropdown-item:hover {
-  color: #0EFAFA;
+  color: #0EFAFA !important;
   /*color: #232323 !important;*/
 }
 .cid-qJWKGr3dEn {
