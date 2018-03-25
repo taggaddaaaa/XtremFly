@@ -1402,7 +1402,7 @@ body {
 }
 .cid-qJWKHrsea5 .navbar {
   padding: .5rem 1rem;
-  background-image: url(../../../images/123.jpg);
+  background-image: url("../../../images/123.jpg");
   /*background: #ffffff;*/
   transition: none;
   min-height: 77px;
@@ -1943,7 +1943,7 @@ body {
   padding-top: 50px;
   padding-bottom: 75px;
   /*background-image: url(../../../images/bg-9.png);*/
-  background-image: url(../../../images/123.jpg);
+  background-image: url("../../../images/123.jpg");
   /*background-color: #1d2124;*/
 }
 .cid-qJWLCqu0ol h4 {
@@ -1981,7 +1981,7 @@ body {
   /*color: #0EFAFA;*/
   font-size: 32px;
   font-family: 'Baloo Thambi', cursive;
-  background-image: url(../../../images/bgnav.png);
+  background-image: url('../../../images/bgnav.png');
 }
 .cid-qJWLCqu0ol .card-box .mbr-text {
   margin-bottom: 0;
