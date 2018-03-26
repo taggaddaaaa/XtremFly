@@ -335,6 +335,10 @@
 }
 
 
-/********************************/
-/*SPECIFIC CSS FOR BIRTHDAY PAGE*/
-/********************************/
+.solo a {
+  text-shadow: 1px 1px 1px black;
+}
+.solo a:hover {
+  color: black;
+  text-shadow: 1px 1px 1px #0EFAFA;
+}
