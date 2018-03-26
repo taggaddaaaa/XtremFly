@@ -1402,8 +1402,8 @@ body {
 }
 .cid-qJWKHrsea5 .navbar {
   padding: .5rem 1rem;
-  background-image: url("../../../images/123.jpg");
-  /*background: #ffffff;*/
+  /*background-image: url("../../../images/123.jpg");*/
+  background: #ffffff;
   transition: none;
   min-height: 77px;
 }
