@@ -18,7 +18,7 @@ body {
 }
 .display-1 {
   font-family: 'Baloo Thambi', cursive;
-  font-size: 4.25rem;
+  font-size: 4.8rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
@@ -39,16 +39,17 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .display-7 > .mbr-iconfont {
   font-size: 1.6rem;
@@ -81,7 +82,7 @@ section h2 {
 }
 /* Buttons */
 .btn {
-  font-weight: 500;
+  font-weight: 400;
   border-width: 2px;
   font-style: normal;
   letter-spacing: 1px;
@@ -98,7 +99,7 @@ section h2 {
   /*word-break: break-word;*/
 }
 .btn-sm {
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -107,7 +108,7 @@ section h2 {
   border-radius: 3px;
 }
 .btn-md {
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   margin: .4rem .8rem !important;
   -webkit-transition: all 0.3s ease-in-out;
@@ -117,7 +118,7 @@ section h2 {
   border-radius: 3px;
 }
 .btn-lg {
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   margin: .4rem .8rem !important;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1407,10 +1408,10 @@ body {
 }
 .cid-qJWKHrsea5 .navbar-dropdown.bg-color.transparent.opened {
   background: #ffffff;
-  /*background-image: url("../../../images/123.jpg");*/
+  background-image: url("../../../images/123.jpg");
 }
 .cid-qJWKHrsea5 .navbar-dropdown.bg-color.transparent.opened .nav-item a{
-  color: #000;
+  color: #fff;
 }
 .cid-qJWKHrsea5 a {
   font-style: normal;
@@ -1428,13 +1429,14 @@ body {
   justify-content: center;
   padding: 0.7rem 0 !important;
   margin: 0 .65rem 0 0 !important;
-  color: #0EFAFA;
+  color: #fff;
   font-size: 0.7rem;
 }
 @media (min-width: 1200px) {
   .cid-qJWKHrsea5 .nav-item a {
-    font-size: 16px;
+    font-size: 20px;
     margin: 0 1rem 0 0 !important;
+	font-weight: 400;
   }
 }
 .cid-qJWKHrsea5 .nav-item:focus,
@@ -1503,7 +1505,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qJWKHrsea5 .dropdown .dropdown-menu {
-  background: #ffffff;
+ background-image: url("../../../images/123.jpg");
   /*display: none;*/
   position: absolute;
   min-width: 5rem;
@@ -1513,7 +1515,7 @@ body {
 }
 
 .dropdown .dropdown-menu {
-    background: #ffffff;
+   background-image: url("../../../images/123.jpg");
     /*display: none;*/
     position: absolute;
     min-width: 5rem;
@@ -1525,7 +1527,7 @@ body {
   width: auto;
   padding: 0.235em 1.5385em 0.235em 1.5385em !important;
 }
-.cid-qJWKHrsea5 .dropdown .dropdown-menu .dropdown-item::after {
+.cid-qJWKHrsea5 .dropdown .dropdown-menu .dropdown-item:after {
   right: 0.5rem;
 }
 .cid-qJWKHrsea5 .dropdown .dropdown-menu .dropdown-submenu {
@@ -1753,12 +1755,11 @@ body {
   }
   .cid-qJWKHrsea5 .dropdown .dropdown-menu {
     width: 100%;
+	height: auto;
     text-align: center;
     position: relative;
-    opacity: 0;
-    /*display: block;*/
-    height: 0;
-    visibility: hidden;
+    display: block;
+    visibility: visible;
     padding: 0;
     transition-duration: .5s;
     transition-property: opacity,padding,height;
@@ -1839,7 +1840,7 @@ body {
   padding: 2rem;
 }
 .cid-qJWLpuzoGc h4 {
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0;
   text-align: left;
 }
@@ -1943,13 +1944,13 @@ body {
 }
 .cid-qJWLCqu0ol {
   padding-top: 50px;
-  padding-bottom: 75px;
+  padding-bottom: 50px;
   /*background-image: url(../../../images/bg-9.png);*/
   background-image: url("../../../images/123.jpg");
   /*background-color: #1d2124;*/
 }
 .cid-qJWLCqu0ol h4 {
-  font-weight: 500;
+  font-weight: 400;
   color: #ffffff;
 }
 .cid-qJWLCqu0ol p {
@@ -2460,7 +2461,7 @@ body {
   padding: 2rem;
 }
 .cid-qK6PtOAqud h4 {
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0;
   text-align: left;
 }
@@ -2535,7 +2536,7 @@ body {
   background-color: #ffffff;
 }
 .cid-qK6PtRCwnx h4 {
-  font-weight: 500;
+  font-weight: 400;
   color: #ffffff;
 }
 .cid-qK6PtRCwnx p {
@@ -3030,7 +3031,7 @@ body {
   padding: 2rem;
 }
 .cid-qK6PnRkwQS h4 {
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0;
   text-align: left;
 }
@@ -3108,7 +3109,7 @@ body {
   background-color: #ffffff;
 }
 .cid-qK6PnTmW0N h4 {
-  font-weight: 500;
+  font-weight: 400;
   color: #ffffff;
 }
 .cid-qK6PnTmW0N p {
