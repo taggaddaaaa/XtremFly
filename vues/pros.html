@@ -213,6 +213,7 @@
                         <a class="btn btn-sm btn-primary btn-book-flight display-7"
                            style="font-family: Fugaz One, sans-serif; color: #0d0d0d;"
                            href="#devis"
+                           data-toggle="modal"
                         >DEMANDER UN DEVIS</a>
                     </div>
                 </div>
@@ -325,7 +326,7 @@
                 </div>
                 <div class="modal-body">
                     <form action="../verify_pro.php"
-                          id="contactForm"
+                          id="contactFormPro"
                           class="mbr-form"
                           method="POST"
                           data-form-title="XtremFly Pros"
@@ -402,11 +403,13 @@
                         <!--nb de participants-->
                         <!--message-->
                         <!--bouton d'envoi-->
+
                     </form>
                     <div data-form-alert="" hidden="">Votre message a bien été envoyé!</div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                <div class="modal-footer input-group-btn">
+                    <div id="success-mail-pros"></div>
+                    <button type="submit" class="btn btn-secondary">ENVOYER</button>
                 </div>
             </div>
         </div>
