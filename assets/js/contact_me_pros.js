@@ -13,6 +13,11 @@ $(function() {
             let lastName = $("input#lastName").val();
             let email = $("input#email").val();
             let phone = $("input#phone").val();
+            let datePicker = $("input#datePicker").val();
+            let hours = $("input#hours").val();
+            let societyName = $("input#societyName").val();
+            let sortOfActivity = $("input#sortOfActivity").val();
+            let participants = $("input#participants").val();
             let message = $("textarea#message").val();
 
             // Check for white space in name for Success/Fail message
@@ -24,16 +29,21 @@ $(function() {
                 url: "verify_pro.php",
                 type: "POST",
                 data: {
-                    lastName: lastName,
                     firstName: firstName,
+                    lastName: lastName,
                     email: email,
                     phone: phone,
+                    datePicker: datePicker,
+                    hours: hours,
+                    societyName: societyName,
+                    sortOfActivity: sortOfActivity,
+                    participants: participants,
                     message: message
                 },
                 cache: false,
                 success: function() {
                     // Success message
-                    $('#success-mail').html("<div class='alert alert-success'>")
+                    $('#success-mail-pros').html("<div class='alert alert-success'>")
                         .find('> .alert-success')
                         .html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>")
@@ -45,7 +55,7 @@ $(function() {
                 },
                 error: function() {
                     // Fail message
-                    $('#success-mail').html("<div class='alert alert-danger'>")
+                    $('#success-mail-pros').html("<div class='alert alert-danger'>")
                         .find('> .alert-danger')
                         .html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>")

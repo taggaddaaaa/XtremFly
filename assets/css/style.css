@@ -347,3 +347,14 @@
 #contactFormPro label {
   color: black;
 }
+
+#datePicker button .gj-icon {
+  top:30%;
+  left:30%;
+  right:30%;
+  bottom:30%;
+}
+
+#datePicker .btn .btn-outline-secondary .border-left-0 {
+  margin: 0;
+}
