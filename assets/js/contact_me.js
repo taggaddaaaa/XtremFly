@@ -33,7 +33,7 @@ $(function() {
                         .find('> .alert-success')
                         .html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>")
-                        .append("<strong>Votre message a été envoyé. </strong>")
+                        .append(firstName + "<strong>, votre message a bien été envoyé. </strong>")
                         .append('</div>');
 
                     //clear all fields

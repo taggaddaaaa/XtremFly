@@ -40,7 +40,6 @@ if(!empty($_POST))
         $datePicker = strip_tags(htmlspecialchars($_POST['datePicker']));
         $hours = strip_tags(htmlspecialchars($_POST['hours']));
         $societyName = strip_tags(htmlspecialchars($_POST['societyName']));
-        $sortOfActivity = strip_tags(htmlspecialchars($_POST['sortOfActivity']));
         $participants = strip_tags(htmlspecialchars($_POST['participants']));
         $message = strip_tags(htmlspecialchars($_POST['message']));
 
@@ -55,7 +54,6 @@ if(!empty($_POST))
         $email_body .= "Nom de la société : $societyName\n";
         $email_body .= "Date souhaitée : $datePicker\n";
         $email_body .= "Heure souhaitée : $hours\n";
-        $email_body .= "Sorte d'activité : $sortOfActivity\n";
         $email_body .= "Nombre de participants : $participants\n\n\n";
         $email_body .= "Message : \n\n $message";
 		$headers = "From : $email_address\r\n" . "Reply-To: $email_address\r\n" . "X-Mailer: PHP/" . phpversion();

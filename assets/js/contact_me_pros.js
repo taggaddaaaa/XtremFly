@@ -14,9 +14,8 @@ $(function() {
             let email = $("input#email").val();
             let phone = $("input#phone").val();
             let datePicker = $("input#datePicker").val();
-            let hours = $("input#hours").val();
+            let hours = $("option#hours").val();
             let societyName = $("input#societyName").val();
-            let sortOfActivity = $("input#sortOfActivity").val();
             let participants = $("input#participants").val();
             let message = $("textarea#message").val();
 
@@ -36,7 +35,6 @@ $(function() {
                     datePicker: datePicker,
                     hours: hours,
                     societyName: societyName,
-                    sortOfActivity: sortOfActivity,
                     participants: participants,
                     message: message
                 },
@@ -47,7 +45,7 @@ $(function() {
                         .find('> .alert-success')
                         .html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>")
-                        .append("<strong>Votre message a été envoyé. </strong>")
+                        .append(firstName + "<strong>, votre message a bien été envoyé. </strong>")
                         .append('</div>');
 
                     //clear all fields

@@ -329,7 +329,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="../verify_pro.php"
+                    <form action="verify_pro.php"
                           id="contactFormPro"
                           class="mbr-form was-validated"
                           method="POST"
@@ -416,7 +416,7 @@
                                 <div class="form-group">
                                     <label class="form-control-label mbr-fonts-style display-7"
                                            for="hours">Heure souhaitée</label>
-                                    <select class="custom-select-sm form-control" name="hours" id="hours" title="hours" required="required">
+                                    <select class="custom-select-sm" name="hours" id="hours" title="hours" required>
                                         <option value="0">Selectionnez une heure</option>
                                         <option value="9h">9H</option>
                                         <option value="10h">10H</option>
@@ -436,7 +436,7 @@
 
                         <!--nom de societe + type d evenement-->
                         <div class="row row-sm-offset">
-                            <div class="col-md-6 multi-horizontal" data-for="societyName">
+                            <div class="col-md-12 multi-horizontal" data-for="societyName">
                                 <div class="form-group">
                                     <label class="form-control-label mbr-fonts-style display-7"
                                            for="societyName"
@@ -498,7 +498,6 @@
                             <button type="submit" class="btn btn-secondary">ENVOYER</button>
                         </div>
                     </form>
-                    <div data-form-alert="" hidden="">Votre message a bien été envoyé!</div>
                 </div>
             </div>
         </div>
@@ -531,6 +530,9 @@
 <!-- Contact ../Form JavaScript -->
 <script src="../assets/js/jqBootstrapValidation.js"></script>
 <script src="../assets/js/contact_me_pros.js"></script>
+
+<!--Script for creating a spreadsheet from data of the form-->
+<script lang="javascript" src="../assets/libraries/xlsx/xlsx.full.min.js"></script>
 
 <input name="animation" type="hidden">
 <input name="cookieData" type="hidden"
