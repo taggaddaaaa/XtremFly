@@ -14,7 +14,9 @@ $(function() {
             let email = $("input#email").val();
             let phone = $("input#phone").val();
             let datePicker = $("input#datePicker").val();
-            let hours = $("option#hours").val();
+
+            let hours = document.getElementById("hours").value;
+            // let hours = $("select#selectedHours").val();
             let societyName = $("input#societyName").val();
             let participants = $("input#participants").val();
             let message = $("textarea#message").val();
