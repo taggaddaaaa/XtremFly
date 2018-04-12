@@ -407,7 +407,7 @@
                                 <div class="form-group date">
                                     <label class="form-control-label mbr-fonts-style display-7"
                                            for="datePicker">Date souhaitée</label>
-                                    <input id="datePicker" required/>
+                                    <input  type="text" class="form-control" id="datePicker" required/>
                                     <div class="invalid-feedback">S'il vous plait, veuillez entrer une date de réservation.</div>
                                 </div>
                             </div>
@@ -506,7 +506,13 @@
 
 
 <script>
+  let today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+
   $('#datePicker').datepicker({
+    format: 'dd-mm-yyyy',
+    weekStartDay: 1,
+    minDate: today,
+    maxDate: '30/09/2018',
     uiLibrary: 'bootstrap4'
   });
 </script>
