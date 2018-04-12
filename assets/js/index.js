@@ -1,7 +1,8 @@
 <!------------------------------------------->
 <!-- CHANGEMENT LOGO AU SCROLL DE LA PAGE  -->
 <!------------------------------------------->
-var imgDirectoryFromIndex = 'assets/images';
+let imgDirectoryFromIndex = 'assets/images';
+let imgDirectoryFromVues = '../assets/images';
 
 $(document).scroll( function() {
   if($(document).scrollTop()>50){
@@ -14,8 +15,8 @@ $(document).scroll( function() {
 
 $(document).scroll( function() {
   if($(document).scrollTop()>50){
-    $("#logoPrincipalUK").attr({src: "../" + imgDirectoryFromIndex + "/logo-dark.png",});
+    $("#logoPrincipalUK").attr({src: imgDirectoryFromVues + "/logo-dark.png",});
   }else{
-    $("#logoPrincipalUK").attr({src: "../" + imgDirectoryFromIndex + "/logo-XtremFly.png",});
+    $("#logoPrincipalUK").attr({src: imgDirectoryFromVues + "/logo-XtremFly.png",});
   }
 } );
