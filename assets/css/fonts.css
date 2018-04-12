@@ -10,65 +10,18 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'AgencyFB-Reg';
-    src: url('../fonts/AgencyFB-Reg.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 /********************************/
 /*       Personal fonts         */
 /********************************/
-@font-face {
-    font-family: 'AWalter Turncoat', cursive;
-    src: url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Chau Philomene One', sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Chau+Philomene+One');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Patrick Hand SC', cursive;
-    src: url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Mogra', cursive;
-    src: url('https://fonts.googleapis.com/css?family=Mogra');
-    font-weight: normal;
-    font-style: normal;
-}
+
 @font-face {
     font-family: 'Baloo Thambi', cursive;
     src: url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'Shrikhand', cursive;
-    src: url('https://fonts.googleapis.com/css?family=Shrikhand');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Righteous', cursive;
-    src: url('https://fonts.googleapis.com/css?family=Righteous');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Concert One', cursive;
-    src: url('https://fonts.googleapis.com/css?family=Concert+One');
-    font-weight: normal;
-    font-style: normal;
-}
+
 @font-face {
     font-family: 'Fugaz One', cursive;
     src: url('https://fonts.googleapis.com/css?family=Fugaz+One');
