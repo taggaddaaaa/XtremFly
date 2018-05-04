@@ -32,16 +32,17 @@ if(!empty($_POST))
 
 
         // Create the email and send the message
-        $to = "matimae33@gmail.com, sabinecaizergues@hotmail.com";
+        $to = "form@xtremfly.fr";
+        $cc = "sabinecaizergues@hotmail.com";
         $email_subject = "[Formulaire de contact] www.xtremfly.fr";
         $email_body = "Bonjour, vous avez un nouveau message depuis votre site internet : \n\n\n";
         $email_body .= "Auteur : $name\n";
         $email_body .= "Email du contact : $email_address\n";
         $email_body .= "Tel. du contact : $phone\n\n\n";
         $email_body .= "Message : \n\n $message";
-		$headers = "From : $email_address\r\n" . "Reply-To: $email_address\r\n" . "X-Mailer: PHP/" . phpversion();
+		$headers = "From: $email_address\r\n" . "Reply-To: $email_address\r\n" . "X-Mailer: PHP/" . phpversion();
 
-		$result = mail($to, $email_subject, $email_body, $headers);
+		$result = mail($to, $cc, $email_subject, $email_body, $headers);
 
 		$success = "Votre message a bien été envoyé.";
 	}
