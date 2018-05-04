@@ -46,7 +46,6 @@ if(!empty($_POST))
 
         // Create the email and send the message
         $to = "pro@xtremfly.fr";
-        $cc = "sabinecaizergues@hotmail.com";
         $email_subject = "[Demande de devis GROUPE] www.xtremfly.fr";
         $email_body = "Bonjour, vous avez un nouveau message depuis la page 'Groupe et CE' de votre site internet : \n\n\n";
         $email_body .= "Auteur : $firstName $lastName\n";

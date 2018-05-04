@@ -33,7 +33,6 @@ if(!empty($_POST))
 
         // Create the email and send the message
         $to = "form@xtremfly.fr";
-        $cc = "sabinecaizergues@hotmail.com";
         $email_subject = "[Formulaire de contact] www.xtremfly.fr";
         $email_body = "Bonjour, vous avez un nouveau message depuis votre site internet : \n\n\n";
         $email_body .= "Auteur : $name\n";
