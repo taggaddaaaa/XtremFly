@@ -58,7 +58,7 @@ if(!empty($_POST))
         $email_body .= "Message : \n\n $message";
 		$headers = "From: $email_address\r\n" . "Reply-To: $email_address\r\n" . "X-Mailer: PHP/" . phpversion();
 
-		$result = mail($to, $cc, $email_subject, $email_body, $headers);
+		$result = mail($to, $email_subject, $email_body, $headers);
 
 		$success = "Votre message a bien été envoyé.";
 	}
