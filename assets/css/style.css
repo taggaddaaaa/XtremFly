@@ -358,3 +358,9 @@
 #datePicker .btn .btn-outline-secondary .border-left-0 {
   margin: 0;
 }
+
+.contactForm {
+  background-image: url('../images/Dune-du-Pilat.jpg');
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
