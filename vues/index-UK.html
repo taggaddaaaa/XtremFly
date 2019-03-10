@@ -454,8 +454,7 @@
 </section>
 
 <!--SECTION NOUS CONTACTER-->
-<section class="mbr-section contactForm cid-qJWMa4qhrc" id="contact"
-         style="background-image: url('../assets/images/Dune-du-Pilat.jpg'); padding-top: 40px; padding-bottom: 40px;">
+<section class="mbr-section contactForm cid-qJWMa4qhrc" id="contact">
     <div class="container">
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
@@ -470,13 +469,13 @@
                     or on our contact form:
                 </h3>
 
-                <div data-form-alert="" hidden="">Your message was sent well!</div>
-
                 <form class="mbr-form"
                       id="contactForm"
-                      action="../verify.php"
+                      action="../php/contact_me.php"
                       method="POST"
-                      data-form-title="XtremFly Contact">
+                      data-form-title="XtremFly Contact"
+                      accept-charset="UTF-8"
+                >
 
                     <div class="row row-sm-offset">
 
@@ -484,15 +483,13 @@
                             <div class="form-group">
                                 <label class="form-control-label mbr-fonts-style display-7" for="name">Name</label>
                                 <input type="text"
-                                       class="form-control form"
+                                       class="form-control form alpha-only"
                                        name="name"
                                        data-form-field="Name"
                                        required
                                        id="name"
                                        autocomplete='name'
-                                       data-validation-required-message="Please, enter your name."
                                 >
-                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
 
@@ -506,9 +503,7 @@
                                        required
                                        id="email"
                                        autocomplete='email'
-                                       data-validation-required-message="Please, enter your email."
                                 >
-                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
 
@@ -523,9 +518,7 @@
                                        required
                                        id="phone"
                                        autocomplete='tel-national'
-                                       data-validation-required-message="Please, enter your phone number."
                                 >
-                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
 
@@ -539,10 +532,10 @@
                                   data-form-field="Message"
                                   required
                                   id="message"
-                                  data-validation-required-message="Please, enter your message."
                         ></textarea>
-                        <p class="help-block text-danger"></p>
                     </div>
+
+                    <div class="clearfix"></div>
 
                     <div class="input-group-btn">
                         <div id="success-mail"></div>

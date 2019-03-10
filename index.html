@@ -75,12 +75,12 @@
     <!-- Google analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118716942-1"></script>
     <script>
-      "use strict";
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        "use strict";
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'UA-118716942-1');
+        gtag('config', 'UA-118716942-1');
     </script>
 
 </head>
@@ -493,62 +493,53 @@
                     ou via notre formulaire de contact:
                 </h3>
 
-                <div data-form-alert="" hidden="">Votre message a bien été envoyé!</div>
-
                 <form class="mbr-form"
                       id="contactForm"
-                      action="verify.php"
                       method="POST"
-                      data-form-title="XtremFly Contact">
+                      action="/assets/js/contact_me.js"
+                      accept-charset="UTF-8"
+                >
 
                     <div class="row row-sm-offset">
 
-                        <div class="col-md-4 multi-horizontal" data-for="name">
+                        <div class="col-md-4 multi-horizontal">
                             <div class="form-group">
                                 <label class="form-control-label mbr-fonts-style display-7" for="name">Nom</label>
                                 <input type="text"
-                                       class="form-control form"
-                                       name="name"
-                                       data-form-field="Name"
-                                       required
+                                       class="form-control form alpha-only"
+                                       placeholder="Votre nom *"
                                        id="name"
-                                       autocomplete='name'
-                                       data-validation-required-message="S'il vous plait, entrez votre nom."
+                                       name="name"
+                                       required
                                 >
-                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
 
-                        <div class="col-md-4 multi-horizontal" data-for="email">
-                            <div class="form-group">
+                        <div class="col-md-4 multi-horizontal">
+                            <div class="form-group controls">
                                 <label class="form-control-label mbr-fonts-style display-7" for="email">Email</label>
                                 <input type="email"
                                        class="form-control"
-                                       name="email"
-                                       data-form-field="Email"
-                                       required
+                                       placeholder="Votre Email *"
                                        id="email"
-                                       autocomplete='email'
-                                       data-validation-required-message="S'il vous plait, entrez votre email."
+                                       name="email"
+                                       required
                                 >
-                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
 
-                        <div class="col-md-4 multi-horizontal" data-for="phone">
+                        <div class="col-md-4 multi-horizontal">
                             <div class="form-group">
                                 <label class="form-control-label mbr-fonts-style display-7"
                                        for="phone">Téléphone</label>
                                 <input type="tel"
                                        class="form-control"
-                                       name="phone"
-                                       data-form-field="Phone"
-                                       required
+                                       placeholder="Votre téléphone *"
                                        id="phone"
-                                       autocomplete='tel-national'
-                                       data-validation-required-message="S'il vous plait, entrez votre numero de téléphone."
+                                       name="phone"
+                                       required
+                                       maxlength="10"
                                 >
-                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
 
@@ -557,15 +548,15 @@
                     <div class="form-group" data-for="message">
                         <label class="form-control-label mbr-fonts-style display-7" for="message">Message</label>
                         <textarea class="form-control"
-                                  name="message"
-                                  rows="7"
-                                  data-form-field="Message"
-                                  required
                                   id="message"
-                                  data-validation-required-message="S'il vous plait, entrez votre message."
+                                  name="message"
+                                  placeholder="Votre message *"
+                                  rows="7"
+                                  required
                         ></textarea>
-                        <p class="help-block text-danger"></p>
                     </div>
+
+                    <div class="clearfix"></div>
 
                     <div class="input-group-btn">
                         <div id="success-mail"></div>
@@ -1274,144 +1265,128 @@
 
 <!--Scripts Google Maps-->
 <script>
-  "use strict";
-  function initMap() {
-    const dep1 = {lat: 44.664845, lng: -1.168768};
-    const dep2 = {lat: 44.697794, lng: -1.228092};
-    const dep3 = {lat: 44.656387, lng: -1.236843};
-    const dep4 = {lat: 44.641716, lng: -1.204502};
-    const dep5 = {lat: 44.660816, lng: -1.151793};
-    const map = new google.maps.Map(document.getElementById('map1-7'), {
-      zoom: 12,
-      center: dep1,
-      styles: [
-        {
-          "featureType": "administrative",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#444444"
-            }
-          ]
-        },
-        {
-          "featureType": "landscape",
-          "elementType": "all",
-          "stylers": [
-            {
-              "color": "#f2f2f2"
-            }
-          ]
-        },
-        {
-          "featureType": "poi",
-          "elementType": "all",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "road",
-          "elementType": "all",
-          "stylers": [
-            {
-              "saturation": -100
-            },
-            {
-              "lightness": 45
-            }
-          ]
-        },
-        {
-          "featureType": "road.highway",
-          "elementType": "all",
-          "stylers": [
-            {
-              "visibility": "simplified"
-            }
-          ]
-        },
-        {
-          "featureType": "road.arterial",
-          "elementType": "labels.icon",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "transit",
-          "elementType": "all",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "water",
-          "elementType": "all",
-          "stylers": [
-            {
-              "color": "#0efafa"
-            },
-            {
-              "visibility": "on"
-            }
-          ]
-        }
-      ]
-    });
-    const marker1 = new google.maps.Marker({
-      position: dep1,
-      map: map,
-      title: 'JETÉE THIERS'
-    });
-    const marker2 = new google.maps.Marker({
-      position: dep2,
-      map: map,
-      title: 'JETÉE DU CANON'
-    });
-    const marker3 = new google.maps.Marker({
-      position: dep3,
-      map: map,
-      title: 'JETÉE BÉLISAIRE'
-    });
-    const marker4 = new google.maps.Marker({
-      position: dep4,
-      map: map,
-      title: 'JETÉE MOULLEAU'
-    });
-    const marker5 = new google.maps.Marker({
-      position: dep5,
-      map: map,
-      title: 'PETIT PORT D\'ARCACHON'
-    });
-  }
+    "use strict";
+    function initMap() {
+        const dep1 = {lat: 44.664845, lng: -1.168768};
+        const dep2 = {lat: 44.697794, lng: -1.228092};
+        const dep3 = {lat: 44.656387, lng: -1.236843};
+        const dep4 = {lat: 44.641716, lng: -1.204502};
+        const dep5 = {lat: 44.660816, lng: -1.151793};
+        const map = new google.maps.Map(document.getElementById('map1-7'), {
+            zoom: 12,
+            center: dep1,
+            styles: [
+                {
+                    "featureType": "administrative",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#444444"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#f2f2f2"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "saturation": -100
+                        },
+                        {
+                            "lightness": 45
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "simplified"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.icon",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#0efafa"
+                        },
+                        {
+                            "visibility": "on"
+                        }
+                    ]
+                }
+            ]
+        });
+        const marker1 = new google.maps.Marker({
+            position: dep1,
+            map: map,
+            title: 'JETÉE THIERS'
+        });
+        const marker2 = new google.maps.Marker({
+            position: dep2,
+            map: map,
+            title: 'JETÉE DU CANON'
+        });
+        const marker3 = new google.maps.Marker({
+            position: dep3,
+            map: map,
+            title: 'JETÉE BÉLISAIRE'
+        });
+        const marker4 = new google.maps.Marker({
+            position: dep4,
+            map: map,
+            title: 'JETÉE MOULLEAU'
+        });
+        const marker5 = new google.maps.Marker({
+            position: dep5,
+            map: map,
+            title: 'PETIT PORT D\'ARCACHON'
+        });
+    }
 </script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkV5zRBtU8-IkexDgaOnBmLFDucxEJRLk&callback=initMap">
 </script>
-<!--Scripts Service Worker-->
-<script>
-  "use strict";
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('assets/js/sw.js').then(function(registration) {
-        // Registration was successful
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-      }, function(err) {
-        // registration failed :(
-        console.log('ServiceWorker registration failed: ', err);
-      });
-    });
-  }
-</script>
-
-<script src="assets/libraries/jQuery/jquery-3.3.1.slim.min.js"></script>
+<script src="https://unpkg.com/jquery@3.2.1/dist/jquery.js"></script>
 <script src="assets/libraries/popper/popper.min.js"></script>
 <script src="assets/libraries/tether/tether.min.js"></script>
 <script src="assets/libraries/bootstrap/js/bootstrap.min.js"></script>

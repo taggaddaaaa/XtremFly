@@ -1,6 +1,6 @@
 $(function() {
 
-    $("textarea").jqBootstrapValidation({
+    $("input, textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -27,7 +27,7 @@ $(function() {
             }
 
             $.ajax({
-                url: "verify_pro.php",
+                url: "../../php/contact_me_pro.php",
                 type: "POST",
                 data: {
                     firstName: firstName,
@@ -43,11 +43,10 @@ $(function() {
                 cache: false,
                 success: function() {
                     // Success message
-                    $('#success-mail-pros').html("<div class='alert alert-success'>")
-                        .find('> .alert-success')
-                        .html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    $('#success-mail-pros').html("<div class='alert alert-success'>");
+                    $('#success-mail-pros > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>")
-                        .append(firstName + "<strong>, votre message a bien été envoyé. </strong>")
+                        .append("<strong>Votre message a bien été envoyé.</strong>")
                         .append('</div>');
 
                     //clear all fields
@@ -64,12 +63,12 @@ $(function() {
 
                     //clear all fields
                     $('#contactFormPro').trigger("reset");
-                }
+                },
             })
         },
         filter: function() {
             return $(this).is(":visible");
-        }
+        },
     });
 
     $("a[data-toggle=\"tab\"]").click(function(e) {
@@ -80,6 +79,6 @@ $(function() {
 
 
 /*When clicking on Full hide fail/success boxes */
-$('#firstName').focus(function() {
+$('#name').focus(function() {
     $('#success-mail-pros').html('');
 });
