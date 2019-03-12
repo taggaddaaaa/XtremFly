@@ -35,7 +35,7 @@ if (empty($_POST['firstName']) ||
 //	$mail = 'taggaddaaaawebstudio@gmail.com'; // For debugging
 //	$mail = 'matimae33@gmail.com'; // For Ludivine and Guillaume throw gmail directly.
 //	$mail = 'matimae33@gmail.com, taggaddaaaawebstudio@gmail.com'; // For emergency.
-	$mail = 'form@xtremfly.fr'; // For general sending.
+	$mail = 'form2contact@xtremfly.fr'; // For general sending.
 
 	if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) {
 		$simple_passage_ligne = "\r\n";
@@ -55,7 +55,7 @@ if (empty($_POST['firstName']) ||
 
 	$subject = "[Formulaire de contact PRO] www.xtremfly.fr";
 
-	$header = "From: \"Xtremfly\"<noreply@xtremfly.fr>".$simple_passage_ligne;
+	$header = "From: \"Xtremfly - PRO\"<noreply@xtremfly.fr>".$simple_passage_ligne;
 	$header.= "Reply-to: \"$email_address\" <$email_address>".$simple_passage_ligne;
 	$header.= "MIME-Version: 1.0".$simple_passage_ligne;
 	$header.= "Content-Type: text/plain; charset=\"ISO - 8859 - 1\"".$simple_passage_ligne;

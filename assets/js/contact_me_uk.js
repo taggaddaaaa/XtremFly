@@ -7,58 +7,46 @@ $(function() {
         },
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
-
             // get values from FORM
-            let firstName = $("input#firstName").val();
-            let lastName = $("input#lastName").val();
+            let name = $("input#name").val();
             let email = $("input#email").val();
             let phone = $("input#phone").val();
-            let datePicker = $("input#datePicker").val();
-
-            let hours = document.getElementById("hours").value;
-            // let hours = $("select#selectedHours").val();
-            let societyName = $("input#societyName").val();
-            let participants = $("input#participants").val();
             let message = $("textarea#message").val();
+            let firstName = name; // For Success/Failure Message
 
             $.ajax({
-                url: "../../php/contact_me_pro.php",
+                url: "../../php/contact_me_uk.php",
                 type: "POST",
                 data: {
-                    firstName: firstName,
-                    lastName: lastName,
-                    email: email,
+                    name: name,
                     phone: phone,
-                    datePicker: datePicker,
-                    hours: hours,
-                    societyName: societyName,
-                    participants: participants,
+                    email: email,
                     message: message
                 },
                 cache: false,
                 success: function() {
                     // Success message
-                    $('#success-mail-pros').html("<div class='alert alert-success'>");
-                    $('#success-mail-pros > .alert-success')
+                    $('#success-mail-uk').html("<div class='alert alert-success'>");
+                    $('#success-mail-uk > .alert-success')
                         .html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>")
-                        .append("<strong>Votre message a bien été envoyé.</strong>")
+                        .append("<strong>Your message has been sent.</strong>")
                         .append('</div>');
 
                     //clear all fields
-                    $('#contactFormPro').trigger("reset");
+                    $('#contactFormUK').trigger("reset");
                 },
                 error: function() {
                     // Fail message
-                    $('#success-mail-pros').html("<div class='alert alert-danger'>");
-                    $('#success-mail-pros > .alert-danger')
+                    $('#success-mail-uk').html("<div class='alert alert-danger'>");
+                    $('#success-mail-uk > .alert-danger')
                         .html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>")
-                        .append("<strong>Désolé " + firstName + ", il semble que le serveur mail ne soit pas disponible. Réessayez plus tard !")
+                        .append("<strong>Sorry " + firstName + ", \n" + "it seems that the mail server is not available. Try again later!")
                         .append('</div>');
 
                     //clear all fields
-                    $('#contactFormPro').trigger("reset");
+                    $('#contactFormUK').trigger("reset");
                 },
             })
         },
@@ -76,5 +64,5 @@ $(function() {
 
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
-    $('#success-mail-pros').html('');
+    $('#success-mail-uk').html('');
 });

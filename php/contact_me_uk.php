@@ -5,7 +5,7 @@ if (empty($_POST['name'])  		||
     empty($_POST['phone']) 		||
     empty($_POST['message'])	||
     !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)) {
-	echo "Aucune données du formulaire reçues";
+	echo "No form data received";
 } else {
 	$name = $_POST['name'];
 	$email_address = $_POST['email'];
@@ -35,15 +35,15 @@ if (empty($_POST['name'])  		||
 		$double_passage_ligne = "\n\n";
 	}
 
-	$message_txt = "Bonjour," .$simple_passage_ligne.  "vous avez un nouveau message depuis votre formulaire de contact de votre site internet:".$double_passage_ligne;
+	$message_txt = "Bonjour," .$simple_passage_ligne.  "vous avez un nouveau message depuis votre formulaire de contact ANGLAIS de votre site internet:".$double_passage_ligne;
 	$message_txt .= "Auteur: ".$name.$simple_passage_ligne;
 	$message_txt .= "Email du contact: ".$email_address.$simple_passage_ligne;
 	$message_txt .= "Tel. du contact: ".$phone.$double_passage_ligne;
 	$message_txt .= "Message:".$simple_passage_ligne.$message;
 
-	$subject = "[Formulaire de contact] www.xtremfly.fr";
+	$subject = "[Formulaire de contact ANGLAIS] www.xtremfly.fr";
 
-	$header = "From: \"Xtremfly\"<noreply@xtremfly.fr>".$simple_passage_ligne;
+	$header = "From: \"Xtremfly - UK\"<noreply@xtremfly.fr>".$simple_passage_ligne;
 	$header.= "Reply-to: \"$email_address\" <$email_address>".$simple_passage_ligne;
 	$header.= "MIME-Version: 1.0".$simple_passage_ligne;
 	$header.= "Content-Type: text/plain; charset=\"ISO - 8859 - 1\"".$simple_passage_ligne;

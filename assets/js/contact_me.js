@@ -13,10 +13,7 @@ $(function() {
             let phone = $("input#phone").val();
             let message = $("textarea#message").val();
             let firstName = name; // For Success/Failure Message
-            // Check for white space in name for Success/Fail message
-            if (firstName.indexOf(' ') >= 0) {
-                firstName = name.split(' ').slice(0, -1).join(' ');
-            }
+
             $.ajax({
                 url: "../../php/contact_me.php",
                 type: "POST",
@@ -30,7 +27,8 @@ $(function() {
                 success: function() {
                     // Success message
                     $('#success-mail').html("<div class='alert alert-success'>");
-                    $('#success-mail > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    $('#success-mail > .alert-success')
+                        .html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>")
                         .append("<strong>Votre message a bien été envoyé.</strong>")
                         .append('</div>');
@@ -40,8 +38,8 @@ $(function() {
                 },
                 error: function() {
                     // Fail message
-                    $('#success-mail').html("<div class='alert alert-danger'>")
-                        .find('> .alert-danger')
+                    $('#success-mail').html("<div class='alert alert-danger'>");
+                    $('#success-mail > .alert-danger')
                         .html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>")
                         .append("<strong>Désolé " + firstName + ", il semble que le serveur mail ne soit pas disponible. Réessayez plus tard !")
