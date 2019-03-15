@@ -25,7 +25,7 @@ if (empty($_POST['name'])  		||
 //	$mail = 'taggaddaaaawebstudio@gmail.com'; // For debugging
 //	$mail = 'matimae33@gmail.com'; // For Ludivine and Guillaume throw gmail directly.
 //	$mail = 'matimae33@gmail.com, taggaddaaaawebstudio@gmail.com'; // For emergency.
-	$mail = 'form2contact@xtremfly.fr'; // For general sending.
+	$mail = 'form@xtremfly.fr'; // For general sending.
 
 	if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) {
 		$simple_passage_ligne = "\r\n";
