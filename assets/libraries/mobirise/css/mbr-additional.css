@@ -1388,12 +1388,12 @@ body {
 }
 .cid-qJWKHrsea5 .navbar {
   padding: .5rem 1rem;
-  background-image: url("../../../images/123.jpg");
+  background-image: url("../../../images/texture2.jpg");
   transition: none;
   min-height: 77px;
 }
 .cid-qJWKHrsea5 .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff url("../../../images/123.jpg");
+  background: #ffffff url("../../../images/texture2.jpg");
 }
 .cid-qJWKHrsea5 .navbar-dropdown.bg-color.transparent.opened .nav-item a{
   color: #fff;
@@ -1488,7 +1488,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qJWKHrsea5 .dropdown .dropdown-menu {
- background-image: url("../../../images/123.jpg");
+ background-image: url("../../../images/texture2.jpg");
   position: absolute;
   min-width: 5rem;
   padding-top: 1.4rem;
@@ -1497,7 +1497,7 @@ body {
 }
 
 .dropdown .dropdown-menu {
-   background-image: url("../../../images/123.jpg");
+   background-image: url("../../../images/texture2.jpg");
     position: absolute;
     min-width: 5rem;
     padding-top: 1.4rem;
@@ -1913,7 +1913,7 @@ body {
 .cid-qJWLCqu0ol {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url("../../../images/123.jpg");
+  background-image: url("../../../images/texture2.jpg");
 }
 .cid-qJWLCqu0ol h4 {
   font-weight: 400;
