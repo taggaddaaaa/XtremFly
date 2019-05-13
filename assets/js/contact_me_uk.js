@@ -1,11 +1,11 @@
-$(function() {
+$(function () {
 
     $("input, textarea").jqBootstrapValidation({
         preventSubmit: true,
-        submitError: function($form, event, errors) {
+        submitError: function ($form, event, errors) {
             // additional error messages or events
         },
-        submitSuccess: function($form, event) {
+        submitSuccess: function ($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             let name = $("input#name").val();
@@ -24,7 +24,7 @@ $(function() {
                     message: message
                 },
                 cache: false,
-                success: function() {
+                success: function () {
                     // Success message
                     $('#success-mail-uk').html("<div class='alert alert-success'>");
                     $('#success-mail-uk > .alert-success')
@@ -36,7 +36,7 @@ $(function() {
                     //clear all fields
                     $('#contactFormUK').trigger("reset");
                 },
-                error: function() {
+                error: function () {
                     // Fail message
                     $('#success-mail-uk').html("<div class='alert alert-danger'>");
                     $('#success-mail-uk > .alert-danger')
@@ -50,12 +50,12 @@ $(function() {
                 },
             })
         },
-        filter: function() {
+        filter: function () {
             return $(this).is(":visible");
         },
     });
 
-    $("a[data-toggle=\"tab\"]").click(function(e) {
+    $("a[data-toggle=\"tab\"]").click(function (e) {
         e.preventDefault();
         $(this).tab("show");
     });
@@ -63,6 +63,6 @@ $(function() {
 
 
 /*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
+$('#name').focus(function () {
     $('#success-mail-uk').html('');
 });

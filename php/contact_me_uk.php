@@ -1,16 +1,16 @@
 <?php
 // Check for empty fields
-if (empty($_POST['name'])  		||
-    empty($_POST['email']) 		||
-    empty($_POST['phone']) 		||
-    empty($_POST['message'])	||
-    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)) {
+if ( empty( $_POST['name'] ) ||
+     empty( $_POST['email'] ) ||
+     empty( $_POST['phone'] ) ||
+     empty( $_POST['message'] ) ||
+     ! filter_var( $_POST['email'], FILTER_VALIDATE_EMAIL ) ) {
 	echo "No form data received";
 } else {
-	$name = $_POST['name'];
+	$name          = $_POST['name'];
 	$email_address = $_POST['email'];
-	$phone = $_POST['phone'];
-	$message = $_POST['message'];
+	$phone         = $_POST['phone'];
+	$message       = $_POST['message'];
 
 	/**
 	 * CREATE THE EMAIL AND SEND IT
@@ -27,7 +27,7 @@ if (empty($_POST['name'])  		||
 //	$mail = 'matimae33@gmail.com, taggaddaaaawebstudio@gmail.com'; // For emergency.
 	$mail = 'form@xtremfly.fr'; // For general sending.
 
-	if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) {
+	if ( ! preg_match( "#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail ) ) {
 		$simple_passage_ligne = "\r\n";
 		$double_passage_ligne = "\r\n\r\n";
 	} else {
@@ -35,22 +35,23 @@ if (empty($_POST['name'])  		||
 		$double_passage_ligne = "\n\n";
 	}
 
-	$message_txt = "Bonjour," .$simple_passage_ligne.  "vous avez un nouveau message depuis votre formulaire de contact ANGLAIS de votre site internet:".$double_passage_ligne;
-	$message_txt .= "Auteur: ".$name.$simple_passage_ligne;
-	$message_txt .= "Email du contact: ".$email_address.$simple_passage_ligne;
-	$message_txt .= "Tel. du contact: ".$phone.$double_passage_ligne;
-	$message_txt .= "Message:".$simple_passage_ligne.$message;
+	$message_txt = "Bonjour," . $simple_passage_ligne . "vous avez un nouveau message depuis votre formulaire de contact ANGLAIS de votre site internet:" . $double_passage_ligne;
+	$message_txt .= "Auteur: " . $name . $simple_passage_ligne;
+	$message_txt .= "Email du contact: " . $email_address . $simple_passage_ligne;
+	$message_txt .= "Tel. du contact: " . $phone . $double_passage_ligne;
+	$message_txt .= "Message:" . $simple_passage_ligne . $message;
 
 	$subject = "[Formulaire de contact ANGLAIS] www.xtremfly.fr";
 
-	$header = "From: \"Xtremfly - UK\"<noreply@xtremfly.fr>".$simple_passage_ligne;
-	$header.= "Reply-to: \"$email_address\" <$email_address>".$simple_passage_ligne;
-	$header.= "MIME-Version: 1.0".$simple_passage_ligne;
-	$header.= "Content-Type: text/plain; charset=\"ISO - 8859 - 1\"".$simple_passage_ligne;
-	$header.= "Content-Transfer-Encoding: 8bit".$simple_passage_ligne;
+	$header = "From: \"Xtremfly - UK\"<noreply@xtremfly.fr>" . $simple_passage_ligne;
+	$header .= "Reply-to: \"$email_address\" <$email_address>" . $simple_passage_ligne;
+	$header .= "MIME-Version: 1.0" . $simple_passage_ligne;
+	$header .= "Content-Type: text/plain; charset=\"ISO - 8859 - 1\"" . $simple_passage_ligne;
+	$header .= "Content-Transfer-Encoding: 8bit" . $simple_passage_ligne;
 
-	$email_body= $message_txt.$simple_passage_ligne;
+	$email_body = $message_txt . $simple_passage_ligne;
 
-	mail($mail,$subject,$email_body,$header);
+	mail( $mail, $subject, $email_body, $header );
+
 	return true;
 }
