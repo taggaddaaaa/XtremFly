@@ -168,7 +168,7 @@
 </section>
 
 <!--SECTION HEADER-->
-<?php include "../php/partials/header.php" ?>
+<?include "../php/partials/header.php" ?>
 
 <!--TITRE PARACHUTE ASCENSIONNEL-->
 <section class="mbr-section content4 cid-qJWPCUBxW1" id="parachute">
@@ -290,25 +290,8 @@
     </div>
 </section>
 
-<!--TITRE LES DEPARTS-->
-<section class="mbr-section content4 cid-qJWR28Ug53" id="starts" style="background-color: #F2F2F2; padding-top: 3.5em">
-    <div class="container">
-        <div class="media-container-row">
-            <div class="title col-12 col-md-11">
-                <h2 class="align-center pb-3 mbr-fonts-style display-2" style="color: #1D2124">5 STARTS</h2>
-                <h4 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style">
-                    To facilitate your boarding, we propose you 5 different departures around the Pond
-                    Of Arcachon.
-                </h4>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--SECTION MAP-->
-<section class="map1 cid-qJWMpDIGNE">
-    <div id="map1-7" class="google-map"></div>
-</section>
+<!--SECTION LES DEPARTS-->
+<?include "../php/partials/map.php" ?>
 
 <!--SECTION LES TARIFS-->
 <section class="features8 cid-qJWLCqu0ol" id="price" style="padding-top: 3.5em;">
@@ -537,12 +520,12 @@
 </section>
 
 <!--SECTION FOOTER ET RS-->
-<?php include "../php/partials/footer.php" ?>
+<?include "../php/partials/footer.php" ?>
 
 <!------------------------------------------->
 <!-- BUTTON STICK ON BOTTOM ON MOBILE SIZE -->
 <!------------------------------------------->
-<?php include "../php/partials/stickyBtn.php" ?>
+<?include "../php/partials/stickyBtn.php" ?>
 
 <!------------------------------------------->
 <!--                MODALS                 -->
@@ -785,12 +768,12 @@
 </div>
 
 <!--MODAL Mentions Légales et Conditions generales de ventes-->
-<?php include "../php/partials/privacy-legacy.php" ?>
+<?include "../php/partials/privacy-legacy.php" ?>
 <!------------------------------------------->
 <!--             END   MODALS              -->
 <!------------------------------------------->
 
 
-<?php include "../php/partials/scripts.php" ?>
+<?include "../php/partials/scripts.php" ?>
 </body>
 </html>

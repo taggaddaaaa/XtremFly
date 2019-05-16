@@ -222,23 +222,23 @@
 </section>
 
 <!--SECTION FOOTER ET RS-->
-<?php include "../php/partials/footer.php"?>
+<?include "../php/partials/footer.php"?>
 
 <!------------------------------------------->
 <!-- BUTTON STICK ON BOTTOM ON MOBILE SIZE -->
 <!------------------------------------------->
-<?php include "../php/partials/stickyBtn.php"?>
+<?include "../php/partials/stickyBtn.php"?>
 
 <!------------------------------------------->
 <!--                MODALS                 -->
 <!------------------------------------------->
 <!--MODAL Mentions Légales et Conditions generales de ventes-->
-<?php include "../php/partials/privacy-legacy.php" ?>
+<?include "../php/partials/privacy-legacy.php" ?>
 <!------------------------------------------->
 <!--             END   MODALS              -->
 <!------------------------------------------->
 
 
-<?php include "../php/partials/scripts.php" ?>
+<?include "../php/partials/scripts.php" ?>
 </body>
 </html>
