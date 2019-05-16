@@ -64,7 +64,6 @@
     <link rel="stylesheet" href="assets/libraries/dropdown/css/style.css">
     <link rel="stylesheet" href="assets/libraries/socicon/css/styles.css">
     <link rel="stylesheet" href="assets/libraries/animatecss/animate.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/libraries/theme/css/style.css">
     <link rel="stylesheet" href="assets/libraries/mobirise/css/mbr-additional.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -151,10 +150,6 @@
                 <li class="nav-item">
                     <a class="nav-link link display-4" href="#price">TARIFS</a>
                 </li>
-                <!--page en images (portfolio)-->
-                <li class="nav-item">
-                    <a class="nav-link link display-4" href="vues/portfolio.html">EN IMAGES</a>
-                </li>
                 <!--dropdown partenaires-->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"
@@ -188,8 +183,9 @@
                href="https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF"
                onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"
             >RESERVER UN VOL</a>
-            <a class="btn btn-sm btn-white btn-lang-en display-4" href="./vues/index-UK.html"><img
-                    src="assets/images/uk.png" alt="english site"></a>
+            <a class="btn btn-sm btn-white btn-lang-en display-4" href="./vues/index-UK.html">
+                <img src="assets/images/uk.png" alt="english site">
+            </a>
         </div>
     </nav>
 </section>
@@ -215,136 +211,133 @@
 </section>
 
 <!--TITRE PARACHUTE ASCENSIONNEL-->
-<section class="mbr-section content4 cid-qJWPCUBxW1" id="parachute"
-         style="background-image: url('assets/images/texture2.jpg');">
+<section class="mbr-section content4 cid-qJWPCUBxW1" id="parachute">
     <div class="container">
         <div class="media-container-row">
-            <div class="title col-12 col-md-8">
+            <div class="title col-12 col-md-11">
                 <h2 class="align-center pb-3 mbr-fonts-style display-2">PARACHUTE ASCENSIONNEL</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Avec
+                <h4 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style" style="color: white;">Avec
                     <span style="font-size: 1.3rem;color: #0EFAFA">XTREMFLY</span>
                     envolez-vous et goûtez au plaisir extrême du parachute ascensionnel en découvrant les merveilles du
                     bassin d’Arcachon.
-                </h3>
+                </h4>
             </div>
         </div>
     </div>
-    <div class="container-fluid features17 cid-qJWLpuzoGc">
-        <div class="media-container-row medias">
-            <!--horaires-->
-            <div class="card p-3 col-12 col-md-6 my-col">
-                <div class="card-wrapper">
-                    <a class="card-overlay" href="#modal-1" data-toggle="modal">
-                        <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
-                    </a>
-                    <div class="card-img">
-                        <img src="assets/images/DSC_8580.jpg" alt="Une montre" title="">
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7">Horaires, Accès <br>et Tarifs</h4>
-                    </div>
-                </div>
-            </div>
-            <!--une vue exceptionnelle-->
-            <div class="card p-3 col-12 col-md-6 my-col">
-                <div class="card-wrapper">
-                    <a class="card-overlay" href="#modal-2" data-toggle="modal">
-                        <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
-                    </a>
-                    <div class="card-img">
-                        <img src="assets/images/DSCN0252.jpg" alt="Cabanes tchanquées" title="">
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7">Une vue <br>exceptionnelle</h4>
+    <div class="container cid-qJWLpuzoGc">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!--horaires-->
+                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
+                    <div class="card-wrapper">
+                        <a class="card-overlay" href="#modal-1" data-toggle="modal">
+                            <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
+                        </a>
+                        <div class="card-img">
+                            <img src="assets/images/DSC_8580.jpg" alt="bateau à l'eau et parachute ascensionnel"
+                                 title="">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Horaires, Accès <br>et Tarifs</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--Solo duo Trio -->
-            <div class="card p-3 col-12 col-md-6 my-col">
-                <div class="card-wrapper">
-                    <a class="card-overlay" href="#modal-3" data-toggle="modal">
-                        <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
-                    </a>
-                    <div class="card-img">
-                        <img src="assets/images/IMG-2062.jpg" alt="Amies" title="">
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7">Solo, Duo <br> ou Trio</h4>
-                    </div>
-                </div>
-            </div>
-            <!--en toute sécurité-->
-            <div class="card p-3 col-12 col-md-6 my-col">
-                <div class="card-wrapper">
-                    <a class="card-overlay" href="#modal-4" data-toggle="modal">
-                        <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
-                    </a>
-                    <div class="card-img">
-                        <img src="assets/images/DSC_8104.jpg" alt="En toute sécurité" title="">
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7">En toute <br> sécurité</h4>
+                <!--une vue exceptionnelle-->
+                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
+                    <div class="card-wrapper"><a class="card-overlay" href="#modal-2" data-toggle="modal">
+                            <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
+                        </a>
+                        <div class="card-img">
+                            <img src="assets/images/DSCN0252.jpg" alt="Cabanes tchanquées" title="cabanes tchanquées">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Une vue <br>exceptionnelle</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--Bon à savoir-->
-            <div class="card p-3 col-12 col-md-6 my-col">
-                <div class="card-wrapper">
-                    <a class="card-overlay" href="#modal-5" data-toggle="modal">
-                        <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
-                    </a>
-                    <div class="card-img">
-                        <img src="assets/images/DSC_8161.jpg" alt="Bon à savoir" title="">
+                <!--Solo duo Trio -->
+                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
+                    <div class="card-wrapper">
+                        <a class="card-overlay" href="#modal-3" data-toggle="modal">
+                            <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
+                        </a>
+                        <div class="card-img">
+                            <img src="assets/images/IMG-2062.jpg" alt="Amies" title="amies">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Solo, Duo <br> ou Trio</h4>
+                        </div>
                     </div>
-                    <div class="card-box">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7">Bon <br> à savoir</h4>
+                </div>
+                <!--en toute sécurité-->
+                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
+                    <div class="card-wrapper">
+                        <a class="card-overlay" href="#modal-4" data-toggle="modal">
+                            <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
+                        </a>
+                        <div class="card-img">
+                            <img src="assets/images/DSC_8104.jpg" alt="En toute sécurité" title="">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">En toute <br> sécurité</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--Bon à savoir-->
+                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
+                    <div class="card-wrapper"><a class="card-overlay" href="#modal-5" data-toggle="modal">
+                            <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
+                        </a>
+                        <div class="card-img">
+                            <img src="assets/images/DSC_8161.jpg" alt="Bon à savoir" title="">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Bon <br> à savoir</h4>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"
-                    style="margin-bottom: 50px;"
-                >
-                    Ce sera pour vous l’occasion de découvrir les cabanes Tchanquées, les parcs ostréicoles, la
-                    fameuse dune du Pyla, le banc d’Arguin, l’océan atlantique et la forêt des landes vue du ciel
-                    à une hauteur de 50 mètres.
-                    <br>
-                    En quelques secondes vous ne touchez plus terre !
-                    <br>
-                    Votre aventure aérienne commence par un petit tour en bateau avec l’équipe
-                    <span style="font-size: 1.3rem;color: #0EFAFA">XTREMFLY</span>,
-                    moniteur diplômé en parachute ascensionnel.
-                    <br>
-                    Notre STAFF vous équipera d’un gilet de sauvetage et d’un harnais de sécurité relié au
-                    parachute. Tout en douceur vous vous envolerez pour une virée panoramique à 360°.
-                    Laissez vous donc submerger par une sensation de bien-être et profitez de ce moment
-                    d’exception dans les airs !
-                    <br>
-                    L’atterrissage se fera en s’amusant à toucher l’eau avec vos pieds ou tout en douceur sur la
-                    plateforme du bateau.
-                    <br>
-                    Alors n’attendez plus pour partager ce moment en solo, en famille, entre amis… AMBIANCE
-                    ET SENSATIONS GARANTIES.
-                </h3>
-            </div>
+    </div>
+    <div class="media-container-row">
+        <div class="title col-12 col-md-10">
+            <p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"
+               style="margin-bottom: 50px;">
+                Ce sera pour vous l’occasion de découvrir les cabanes Tchanquées, les parcs ostréicoles, la
+                fameuse dune du Pyla, le banc d’Arguin, l’océan atlantique et la forêt des landes vue du ciel
+                à une hauteur de 50 mètres.
+                <br>
+                En quelques secondes vous ne touchez plus terre !
+                <br>
+                Votre aventure aérienne commence par un petit tour en bateau avec l’équipe
+                <span style="font-size: 1.3rem;color: #0EFAFA">XTREMFLY</span>,
+                moniteur diplômé en parachute ascensionnel.
+                <br>
+                Notre STAFF vous équipera d’un gilet de sauvetage et d’un harnais de sécurité relié au
+                parachute. Tout en douceur vous vous envolerez pour une virée panoramique à 360°.
+                Laissez vous donc submerger par une sensation de bien-être et profitez de ce moment
+                d’exception dans les airs !
+                <br>
+                L’atterrissage se fera en s’amusant à toucher l’eau avec vos pieds ou tout en douceur sur la
+                plateforme du bateau.
+                <br>
+                Alors n’attendez plus pour partager ce moment en solo, en famille, entre amis… AMBIANCE
+                ET SENSATIONS GARANTIES.
+            </p>
         </div>
     </div>
 </section>
 
 <!--TITRE LES DEPARTS-->
-<section class="mbr-section content4 cid-qJWR28Ug53" id="starts" style="background-color: #F2F2F2">
+<section class="mbr-section content4 cid-qJWR28Ug53" id="starts" style="background-color: #F2F2F2; padding-top: 3.5em">
     <div class="container">
         <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h2 class="align-center pb-3 mbr-fonts-style display-2"
-                    style="color: #1D2124"
-                >LES 5 DÉPARTS</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
+            <div class="title col-12 col-md-11">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2" style="color: #1D2124">LES 5 DÉPARTS</h2>
+                <h4 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style">
                     Pour faciliter votre embarquement, nous vous proposons 5 départs différents autour du Bassin
                     d'Arcachon
-                </h3>
+                </h4>
             </div>
         </div>
     </div>
@@ -356,23 +349,23 @@
 </section>
 
 <!--SECTION LES TARIFS-->
-<section class="features8 cid-qJWLCqu0ol" id="price">
+<section class="features8 cid-qJWLCqu0ol" id="price" style="padding-top: 3.5em;">
     <div class="container">
         <!--Titre et accroche-->
         <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h2 class="align-center pb-3 mbr-fonts-style display-2 text-white">
-                    LES TARIFS</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
-                    Offrez-vous une balade en parachute ascensionnel grâce à notre boutique en ligne et réservez&nbsp;votre
-                    vol au
+            <div class="title col-12 col-md-11">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2 text-white">LES TARIFS</h2>
+                <h4 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style">
+                    Offrez-vous une balade en parachute ascensionnel grâce à notre boutique en ligne et
                     <br>
-                    <a href="tel:0673824102" title="0673824102" style="font-size: 1.3rem;">06 73 82 41 02</a>
-                </h3>
+                    réservez votre vol au
+                    <br>
+                    <a href="tel:0673824102" title="0673824102" style="font-size: 2.3em;">06 73 82 41 02</a>
+                </h4>
             </div>
         </div>
         <!-- Section 'taches'-->
-        <div class="media-container-row">
+        <div class="media-container-row" style="margin-top: 1em;">
             <!--Tarif enfant-->
             <div class="card  col-12 col-md-6 col-lg-4">
                 <div class="card-box align-center">
@@ -458,8 +451,8 @@
         </div>
         <!--Paragraphe et moyens de paiements-->
         <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
+            <div class="title col-12 col-md-10">
+                <p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
                     Il est également possible de venir directement sur place.
                     <br>
                     Nous acceptons les CB, les espèces et les chèques-vacances ANCV
@@ -471,19 +464,19 @@
                     <a style="font-size: 1.3rem;" name="telephone" href="tel:0673824102" title="0673824102">06 73 82 41
                         02</a>.
                     <br>
-                </h3>
+                </p>
                 <img class="align-center" style="width: 90%;" src="assets/images/moyen-de-paiement.png"
                      alt="moyens de paiement acceptés">
             </div>
         </div>
         <!--Section 'asterisques'-->
         <div class="media-container-row">
-            <div class="col-12 col-md-8 align-center mbr-section-subtitle mbr-light mbr-fonts-style display-5">
+            <div class="col-12 col-md-12 align-center mbr-section-subtitle mbr-light mbr-fonts-style display-5">
                 *Les enfants de moins de 12 ans doivent être accompagnés obligatoirement d'une personne adulte de plus
                 de 18 ans.
                 <br>
                 **Veuillez-vous référer à nos <a href="#modal-legacy" data-toggle="modal">conditions générales de
-                ventes</a>.
+                    ventes</a>.
                 <br>
                 ***Tarif valable pour des personnes de + de 18 ans. L'abus d'alcool est dangereux pour la santé. À
                 consommer avec modération.
@@ -491,6 +484,8 @@
         </div>
     </div>
 </section>
+
+<!--TODO: SECTION PARTENAIRES-->
 
 <!--SECTION NOUS CONTACTER-->
 <section class="mbr-section contactForm cid-qJWMa4qhrc" id="contact">
@@ -1173,7 +1168,7 @@
                     <hr>
 
                     <p style="text-align:justify"><strong>Article 3: ANNULATION - VALIDITÉ DU BILLET -
-                        PROLONGATION</strong>
+                            PROLONGATION</strong>
                         <br/>
                         3.1 Le billet cadeau est valable 1 an à compter de sa date d'émission (hors période de fermeture
                         hivernale de novembre à mars, il est cessible et non remboursable.
@@ -1429,7 +1424,9 @@
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkV5zRBtU8-IkexDgaOnBmLFDucxEJRLk&callback=initMap">
 </script>
-<script src="https://unpkg.com/jquery@3.2.1/dist/jquery.js"></script>
+<!--END Scripts Google Maps-->
+
+<script type="text/javascript" src="https://unpkg.com/jquery@3.2.1/dist/jquery.js"></script>
 <script src="assets/libraries/popper/popper.min.js"></script>
 <script src="assets/libraries/tether/tether.min.js"></script>
 <script src="assets/libraries/bootstrap/js/bootstrap.min.js"></script>
@@ -1442,7 +1439,6 @@
 <script src="assets/libraries/sociallikes/social-likes.js"></script>
 <script src="assets/libraries/touchswipe/jquery.touch-swipe.min.js"></script>
 <script src="assets/js/index.js"></script>
-<script src="assets/js/slick.min.js"></script>
 <script src="assets/libraries/theme/js/script.js"></script>
 
 <!-- Contact Form JavaScript -->

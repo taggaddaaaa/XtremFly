@@ -39,7 +39,7 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.5rem;
+  /*font-size: 1.5rem;*/
   color: #fff;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -74,7 +74,7 @@ section h2 {
     font-size: 0.8rem;
   }
   .display-5 {
-    font-size: 0.9rem;
+    /*font-size: 0.9rem;*/
   }
 }
 /* Buttons */
@@ -1790,7 +1790,7 @@ body {
 .cid-qJWPCUBxW1 {
   padding-top: 105px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  background-color: #1C90FF;
 }
 
 .cid-qJWLpuzoGc {
@@ -1799,7 +1799,7 @@ body {
 }
 
 .cid-qJWLpuzoGc .medias {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
 }
 
 .cid-qJWLpuzoGc .card-img {
@@ -1807,7 +1807,7 @@ body {
 }
 .cid-qJWLpuzoGc .card-box {
   background-color: #ffffff;
-  padding: 2rem;
+  padding: 1em;
 }
 .cid-qJWLpuzoGc h4 {
   font-weight: 400;
@@ -1869,14 +1869,7 @@ body {
 .cid-qJWLpuzoGc .card-title {
   text-align: center;
 }
-.cid-qJWR28Ug53 {
-  padding-top: 105px;
-  padding-bottom: 15px;
-  background-color: #efefef;
-}
-.cid-qJWR28Ug53 .mbr-section-subtitle {
-  color: #767676;
-}
+
 .cid-qJWMpDIGNE .google-map {
   height: 25rem;
   position: relative;
@@ -1913,7 +1906,8 @@ body {
 .cid-qJWLCqu0ol {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url("../../../images/texture2.jpg");
+    background-color: #1C90FF;
+  /*background-image: url("../../../images/texture2.jpg");*/
 }
 .cid-qJWLCqu0ol h4 {
   font-weight: 400;
