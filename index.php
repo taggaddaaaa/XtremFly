@@ -191,128 +191,13 @@
 </section>
 
 <!--SECTION HEADER-->
-<?include "./php/partials/header.php" ?>
+<?php include "./php/partials/header.php" ?>
 
-<!--TITRE PARACHUTE ASCENSIONNEL-->
-<section class="mbr-section content4 cid-qJWPCUBxW1" id="parachute">
-    <div class="container">
-        <div class="media-container-row">
-            <div class="title col-12 col-md-11">
-                <h2 class="align-center pb-3 mbr-fonts-style display-2">PARACHUTE ASCENSIONNEL</h2>
-                <h4 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style" style="color: white;">Avec
-                    <span style="font-size: 1.3rem;color: #0EFAFA">XTREMFLY</span>
-                    envolez-vous et goûtez au plaisir extrême du parachute ascensionnel en découvrant les merveilles du
-                    bassin d’Arcachon.
-                </h4>
-            </div>
-        </div>
-    </div>
-    <div class="container cid-qJWLpuzoGc">
-        <div class="container">
-            <div class="row justify-content-center">
-                <!--horaires-->
-                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
-                    <div class="card-wrapper">
-                        <a class="card-overlay" href="#modal-1" data-toggle="modal">
-                            <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
-                        </a>
-                        <div class="card-img">
-                            <img src="assets/images/DSC_8580.jpg" alt="bateau à l'eau et parachute ascensionnel"
-                                 title="">
-                        </div>
-                        <div class="card-box">
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Horaires, Accès <br>et Tarifs</h4>
-                        </div>
-                    </div>
-                </div>
-                <!--une vue exceptionnelle-->
-                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
-                    <div class="card-wrapper"><a class="card-overlay" href="#modal-2" data-toggle="modal">
-                            <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
-                        </a>
-                        <div class="card-img">
-                            <img src="assets/images/DSCN0252.jpg" alt="Cabanes tchanquées" title="cabanes tchanquées">
-                        </div>
-                        <div class="card-box">
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Une vue <br>exceptionnelle</h4>
-                        </div>
-                    </div>
-                </div>
-                <!--Solo duo Trio -->
-                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
-                    <div class="card-wrapper">
-                        <a class="card-overlay" href="#modal-3" data-toggle="modal">
-                            <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
-                        </a>
-                        <div class="card-img">
-                            <img src="assets/images/IMG-2062.jpg" alt="Amies" title="amies">
-                        </div>
-                        <div class="card-box">
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Solo, Duo <br> ou Trio</h4>
-                        </div>
-                    </div>
-                </div>
-                <!--en toute sécurité-->
-                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
-                    <div class="card-wrapper">
-                        <a class="card-overlay" href="#modal-4" data-toggle="modal">
-                            <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
-                        </a>
-                        <div class="card-img">
-                            <img src="assets/images/DSC_8104.jpg" alt="En toute sécurité" title="">
-                        </div>
-                        <div class="card-box">
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">En toute <br> sécurité</h4>
-                        </div>
-                    </div>
-                </div>
-                <!--Bon à savoir-->
-                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
-                    <div class="card-wrapper"><a class="card-overlay" href="#modal-5" data-toggle="modal">
-                            <img class="overlay-img" src="assets/images/plus.svg" alt="en savoir plus">
-                        </a>
-                        <div class="card-img">
-                            <img src="assets/images/DSC_8161.jpg" alt="Bon à savoir" title="">
-                        </div>
-                        <div class="card-box">
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Bon <br> à savoir</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="media-container-row">
-        <div class="title col-12 col-md-10">
-            <p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"
-               style="margin-bottom: 50px;">
-                Ce sera pour vous l’occasion de découvrir les cabanes Tchanquées, les parcs ostréicoles, la
-                fameuse dune du Pyla, le banc d’Arguin, l’océan atlantique et la forêt des landes vue du ciel
-                à une hauteur de 50 mètres.
-                <br>
-                En quelques secondes vous ne touchez plus terre !
-                <br>
-                Votre aventure aérienne commence par un petit tour en bateau avec l’équipe
-                <span style="font-size: 1.3rem;color: #0EFAFA">XTREMFLY</span>,
-                moniteur diplômé en parachute ascensionnel.
-                <br>
-                Notre STAFF vous équipera d’un gilet de sauvetage et d’un harnais de sécurité relié au
-                parachute. Tout en douceur vous vous envolerez pour une virée panoramique à 360°.
-                Laissez vous donc submerger par une sensation de bien-être et profitez de ce moment
-                d’exception dans les airs !
-                <br>
-                L’atterrissage se fera en s’amusant à toucher l’eau avec vos pieds ou tout en douceur sur la
-                plateforme du bateau.
-                <br>
-                Alors n’attendez plus pour partager ce moment en solo, en famille, entre amis… AMBIANCE
-                ET SENSATIONS GARANTIES.
-            </p>
-        </div>
-    </div>
-</section>
+<!--SECTION PARACHUTE ASCENSIONNEL-->
+<?php include "./php/partials/parachute.php" ?>
 
 <!--SECTION LES DEPARTS-->
-<?include "./php/partials/map.php" ?>
+<?php include "./php/partials/map.php" ?>
 
 <!--SECTION LES TARIFS-->
 <section class="features8 cid-qJWLCqu0ol" id="price" style="padding-top: 3.5em;">
@@ -546,12 +431,12 @@
 </section>
 
 <!--SECTION FOOTER ET RS-->
-<?include "./php/partials/footer.php" ?>
+<?php include "./php/partials/footer.php" ?>
 
 <!------------------------------------------->
 <!-- BUTTON STICK ON BOTTOM ON MOBILE SIZE -->
 <!------------------------------------------->
-<?include "./php/partials/stickyBtn.php" ?>
+<?php include "./php/partials/stickyBtn.php" ?>
 
 <!------------------------------------------->
 <!--                MODALS                 -->
@@ -799,12 +684,12 @@
 </div>
 
 <!--MODAL Mentions Légales et Conditions generales de ventes-->
-<?include "./php/partials/privacy-legacy.php" ?>
+<?php include "./php/partials/privacy-legacy.php" ?>
 <!------------------------------------------->
 <!--             END   MODALS              -->
 <!------------------------------------------->
 
 
-<?include "./php/partials/scripts.php" ?>
+<?php include "./php/partials/scripts.php" ?>
 </body>
 </html>

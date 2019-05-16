@@ -305,12 +305,12 @@
 </section>
 
 <!--SECTION FOOTER ET RS-->
-<?include "../php/partials/footer.php"?>
+<?php include "../php/partials/footer.php"?>
 
 <!------------------------------------------->
 <!-- BUTTON STICK ON BOTTOM ON MOBILE SIZE -->
 <!------------------------------------------->
-<?include "../php/partials/stickyBtn.php"?>
+<?php include "../php/partials/stickyBtn.php"?>
 
 <!------------------------------------------->
 <!--                MODALS                 -->
@@ -520,12 +520,12 @@
 </div>
 
 <!--MODAL Mentions Légales et Conditions generales de ventes-->
-<?include "../php/partials/privacy-legacy.php" ?>
+<?php include "../php/partials/privacy-legacy.php" ?>
 <!------------------------------------------->
 <!--             END   MODALS              -->
 <!------------------------------------------->
 
 
-<?include "../php/partials/scripts.php" ?>
+<?php include "../php/partials/scripts.php" ?>
 </body>
 </html>

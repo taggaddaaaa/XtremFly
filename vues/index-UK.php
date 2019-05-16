@@ -168,130 +168,13 @@
 </section>
 
 <!--SECTION HEADER-->
-<?include "../php/partials/header.php" ?>
+<?php include "../php/partials/header.php" ?>
 
-<!--TITRE PARACHUTE ASCENSIONNEL-->
-<section class="mbr-section content4 cid-qJWPCUBxW1" id="parachute">
-    <div class="container">
-        <div class="media-container-row">
-            <div class="title col-12 col-md-11">
-                <h2 class="align-center pb-3 mbr-fonts-style display-2">PARASAILING</h2>
-                <h4 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style" style="color: white;">With
-                    <span style="font-size: 1.3rem;color: #0EFAFA">XTREMFLY</span>
-                    Fly away and taste the extreme pleasure of the parasailing by discovering
-                    the marvels of the Bay of Arcachon.
-                </h4>
-            </div>
-        </div>
-    </div>
-    <div class="container cid-qJWLpuzoGc">
-        <div class="container">
-            <div class="row justify-content-center">
-                <!--horaires-->
-                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
-                    <div class="card-wrapper">
-                        <a class="card-overlay" href="#modal-1" data-toggle="modal">
-                            <img class="overlay-img" src="../assets/images/plus.svg" alt="know more">
-                        </a>
-                        <div class="card-img">
-                            <img src="../assets/images/DSC_8580.jpg" alt="hours" title="">
-                        </div>
-                        <div class="card-box">
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Schedules, Access <br>and prices</h4>
-                        </div>
-                    </div>
-                </div>
-                <!--une vue exceptionnelle-->
-                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
-                    <div class="card-wrapper">
-                        <a class="card-overlay" href="#modal-2" data-toggle="modal">
-                            <img class="overlay-img" src="../assets/images/plus.svg" alt="know more">
-                        </a>
-                        <div class="card-img">
-                            <img src="../assets/images/DSCN0252.jpg" alt="Cabanes tchanquées" title="">
-                        </div>
-                        <div class="card-box">
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">An exceptional<br>vue</h4>
-                        </div>
-                    </div>
-                </div>
-                <!--Solo duo Trio -->
-                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
-                    <div class="card-wrapper">
-                        <a class="card-overlay" href="#modal-3" data-toggle="modal">
-                            <img class="overlay-img" src="../assets/images/plus.svg" alt="know more">
-                        </a>
-                        <div class="card-img">
-                            <img src="../assets/images/IMG-2062.jpg" alt="friends" title="">
-                        </div>
-                        <div class="card-box">
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Solo, Duo <br> or Trio</h4>
-                        </div>
-                    </div>
-                </div>
-                <!--Safely-->
-                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
-                    <div class="card-wrapper">
-                        <a class="card-overlay" href="#modal-4" data-toggle="modal">
-                            <img class="overlay-img" src="../assets/images/plus.svg" alt="know more">
-                        </a>
-                        <div class="card-img">
-                            <img src="../assets/images/DSC_8104.jpg" alt="Safely" title="">
-                        </div>
-                        <div class="card-box">
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Safely</h4>
-                        </div>
-                    </div>
-                </div>
-                <!--Good to know-->
-                <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
-                    <div class="card-wrapper">
-                        <a class="card-overlay" href="#modal-5" data-toggle="modal">
-                            <img class="overlay-img" src="../assets/images/plus.svg" alt="know more">
-                        </a>
-                        <div class="card-img">
-                            <img src="../assets/images/DSC_8161.jpg" alt="Good to know" title="">
-                        </div>
-                        <div class="card-box">
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Good to know</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="media-container-row">
-            <div class="title col-12 col-md-10">
-                <p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"
-                   style="margin-bottom: 50px;">
-                    It will be for you the opportunity to discover huts built on stits, oyster parks,
-                    Famous Pyla Dune, the bench of Arguin, the Atlantic Ocean and the forest of moors seen by the sky
-                    At a 50 meter height.
-                    <br>
-                    In a few seconds you do not land any more!
-                    <br>
-                    Your air adventure begins with a small boat ride with the team
-                    <span style="font-size: 1.3rem;color: #0EFAFA">XTREMFLY</span>,
-                    Instructor awarded a diploma in parasailing.
-                    <br>
-                    Our STAFF will equip you with a life jacket and with a safety harness connected in
-                    parasailing. Quite smoothly you will fly away for a panoramic trip in 360 °.
-                    Thus let submerge you by a sensation to be well and take advantage of this moment
-                    Of exception in the air!
-                    <br>
-                    The landing will be made by enjoying affecting the water with your feet or quite smoothly
-                    on the platform of the boat.
-                    <br>
-                    Then do not wait any more to share this moment solo, in family, between friends …
-                    ATMOSPHERE AND GUARANTEED SENSATIONS.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+<!--SECTION PARACHUTE ASCENSIONNEL-->
+<?php include "../php/partials/parachute.php" ?>
 
 <!--SECTION LES DEPARTS-->
-<?include "../php/partials/map.php" ?>
+<?php include "../php/partials/map.php" ?>
 
 <!--SECTION LES TARIFS-->
 <section class="features8 cid-qJWLCqu0ol" id="price" style="padding-top: 3.5em;">
@@ -439,8 +322,7 @@
                 <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">
                     We answer to all your questions on
                     <br>
-                    <a style="font-size: 1.3rem;" href="tel:0033673824102" title="0033673824102" name="phone">0033 6 73
-                        82 41 02</a>
+                    <a style="font-size: 1.3rem;" href="tel:0033673824102" title="0033673824102" name="phone">0033 6 73 82 41 02</a>
                     <br>
                     or on our contact form:
                 </h3>
@@ -520,12 +402,12 @@
 </section>
 
 <!--SECTION FOOTER ET RS-->
-<?include "../php/partials/footer.php" ?>
+<?php include "../php/partials/footer.php" ?>
 
 <!------------------------------------------->
 <!-- BUTTON STICK ON BOTTOM ON MOBILE SIZE -->
 <!------------------------------------------->
-<?include "../php/partials/stickyBtn.php" ?>
+<?php include "../php/partials/stickyBtn.php" ?>
 
 <!------------------------------------------->
 <!--                MODALS                 -->
@@ -768,12 +650,12 @@
 </div>
 
 <!--MODAL Mentions Légales et Conditions generales de ventes-->
-<?include "../php/partials/privacy-legacy.php" ?>
+<?php include "../php/partials/privacy-legacy.php" ?>
 <!------------------------------------------->
 <!--             END   MODALS              -->
 <!------------------------------------------->
 
 
-<?include "../php/partials/scripts.php" ?>
+<?php include "../php/partials/scripts.php" ?>
 </body>
 </html>
