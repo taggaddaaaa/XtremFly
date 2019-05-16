@@ -247,34 +247,7 @@
 </section>
 
 <!--SECTION FOOTER ET RS-->
-<section class="cid-qJWMuQiy1n" id="social-networks">
-    <div class="container">
-        <div class="media-container-row">
-            <div style="color: #327495;" class="col-md-8 align-center">
-                <div class="social-list pl-0 mb-0" style="padding: 1.5rem;">
-                    <p class="pb-3 mbr-fonts-style display-7" style="font-weight: 500;">RETROUVEZ-NOUS SUR LES RESEAUX
-                        SOCIAUX !</p>
-                    <a style="padding:1rem;" href="https://www.instagram.com/xtremflyarcachon/" target="_blank"
-                       name="instagram">
-                        <img style="width: 10%;" src="../assets/images/insta.png" alt="instagram icon">
-                    </a>
-                    <a style="padding:1rem;" href="https://www.facebook.com/XtremFly" target="_blank" name="facebook">
-                        <img style="width: 10%;" src="../assets/images/facebook.png" alt="facebook icon">
-                    </a>
-                    <a style="padding:1rem;" href="https://waze.com/ul?ll=44.664845,-1.168768" target="_blank"
-                       name="waze">
-                        <img style="width: 10%;" src="../assets/images/waze.png" alt="waze icon">
-                    </a>
-                </div>
-                <h6 class="pb-3 mbr-fonts-style" style="font-size: 1rem; font-weight: 300; color: #327495;">
-                    <a href="#modal-privacy" data-toggle="modal" style="color: #327495;">Mentions légales</a> -
-                    <a href="#modal-legacy" style="color: #327495;" data-toggle="modal">Conditions générales de
-                        ventes</a>
-                </h6>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include "../php/partials/footer.php"?>
 
 <!------------------------------------------->
 <!-- BUTTON STICK ON BOTTOM ON MOBILE SIZE -->
