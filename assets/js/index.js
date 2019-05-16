@@ -4,13 +4,16 @@
 let srcLogoDark = '../../assets/images/logo-dark.png';
 let srcLogoNormal = '../../assets/images/logo-XtremFly.png';
 
+// on donne une valeur à l'attribut source de la balise img dans le fichier nav.php suivant l'url de la page en cours
+$("#logoPrincipal").attr({src: srcLogoNormal});
+$("#logoUK").attr({src: srcLogoNormal});
+$("#logoGroups").attr({src: srcLogoDark});
+
+// on change cette valeur si besoin au scroll de la page. Cela permet de changer le logo suivant si le fond est noir ou blanc
 $(document).scroll(function () {
     if ($(document).scrollTop() > 50) {
         $("#logoPrincipal").attr({src: srcLogoDark});
-        $("#logoPrincipalUK").attr({src: srcLogoDark});
-    } else {
-        $("#logoPrincipal").attr({src: srcLogoNormal});
-        $("#logoPrincipalUK").attr({src: srcLogoNormal});
+        $("#logoUK").attr({src: srcLogoDark});
     }
 });
 
