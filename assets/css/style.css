@@ -442,3 +442,65 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+
+/*INSTAGRAM FEED*/
+#instagram-feed {
+    /*margin: auto;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a.animation {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+a.animation:hover {
+    opacity: 0.6;
+}
+
+#instagram-feed a img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+#article {
+    margin: 0 auto;
+    width: 100%;
+}
+
+span {
+    cursor: default;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #instagram-feed {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    a.animation {
+        height: 150px;
+        width: 150px;
+        float: left;
+        overflow: hidden;
+        margin: 2px;
+    }
+
+    #instagram-feed a img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    #article {
+        width: 100%;
+        margin: 0;
+    }
+}

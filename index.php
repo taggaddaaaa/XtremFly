@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <!--HEAD-->
-<?php include "./php/partials/head.php"?>
+<?php include "./php/partials/head.php" ?>
 
 <body id="page-top">
 <!--SECTION NAVIGATION-->
@@ -112,6 +112,9 @@
         </div>
     </div>
 </section>
+
+<!--SECTION INSTAGRAM FEED-->
+<?php include "./php/partials/instaFeed.php" ?>
 
 <!--SECTION FOOTER ET RS-->
 <?php include "./php/partials/footer.php" ?>

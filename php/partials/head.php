@@ -110,6 +110,8 @@ switch ( true ) {
     <link rel="stylesheet" href="../../assets/libraries/animatecss/animate.min.css">
     <link rel="stylesheet" href="../../assets/libraries/theme/css/style.css">
     <link rel="stylesheet" href="../../assets/libraries/mobirise/css/mbr-additional.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/libraries/slick/slick/slick.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/libraries/slick/slick/slick-theme.css" type="text/css">
     <link rel="stylesheet" href="../../assets/css/style.css">
 
     <!-- Fonts imports -->

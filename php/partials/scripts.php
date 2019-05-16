@@ -1,9 +1,9 @@
 <?php
- $isUK = strpos($_SERVER['REQUEST_URI'],  'UK' );
- $cookiesMessage = $isUK
-	 ? "We use cookies to offer you a better experience in our website. If you continue to use it,
+$isUK           = strpos( $_SERVER['REQUEST_URI'], 'UK' );
+$cookiesMessage = $isUK
+	? "We use cookies to offer you a better experience in our website. If you continue to use it,
         we will consider that you accept the use of cookies."
-	 : "Nous utilisons des cookies pour vous offrir une meilleure expérience sur notre site.
+	: "Nous utilisons des cookies pour vous offrir une meilleure expérience sur notre site.
 	Si vous continuez à utiliser ce dernier, nous considérerons que vous acceptez l'utilisation des cookies.";
 
 ?>
@@ -146,8 +146,11 @@
 <script src="./../../assets/libraries/parallax/jarallax.min.js"></script>
 <script src="./../../assets/libraries/sociallikes/social-likes.js"></script>
 <script src="./../../assets/libraries/touchswipe/jquery.touch-swipe.min.js"></script>
-<script src="./../../assets/js/index.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="./../../assets/libraries/slick/slick/slick.min.js"></script>
 <script src="./../../assets/libraries/theme/js/script.js"></script>
+<!--Personal script: Always put after jquery and slick scripts-->
+<script src="./../../assets/js/index.js"></script>
 
 <!-- Contact Form JavaScript -->
 <script src="./../../assets/js/jqBootstrapValidation.js"></script>

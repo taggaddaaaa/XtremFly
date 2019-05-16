@@ -39,3 +39,18 @@ $(".alpha-only")
     .on("input", function () {
         let regexp = /[^a-zA-Z]/g;
     });
+
+
+<!------------------------------------------->
+<!-- INSTAGRAM FEED IT WORKS WITH SLICKJS  -->
+<!------------------------------------------->
+$(document).ready(function () {
+    $('.insta').slick({
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true,
+        // autoplay: true,
+        // autoplaySpeed: 2000
+    });
+});
