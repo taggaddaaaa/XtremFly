@@ -9,7 +9,7 @@
 
 <!--SECTION BODY-->
 <section class="mbr-section content4 cid-qJWPCUBxW1 portfolioHeader" id="portfolioHeader"
-         style="background-image: url('../assets/images/texture2.jpg');">
+         style="background-image: url('../assets-mai19/images/texture2.jpg');">
     <div class="container" style="padding-bottom: 2rem;">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
@@ -27,146 +27,146 @@
         <div class="row">
             <!--petites images-->
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/124.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/124.jpg" alt="">
+                <a href="../assets-mai19/images/124.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/124.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/IMG_1083.JPG" target="_blank">
-                    <img class="img-fluid" src="../assets/images/IMG_1083.JPG" alt="">
+                <a href="../assets-mai19/images/IMG_1083.JPG" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/IMG_1083.JPG" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/1234567.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/1234567.jpg" alt="">
+                <a href="../assets-mai19/images/1234567.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/1234567.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/baie1.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/baie1.jpg" alt="">
+                <a href="../assets-mai19/images/baie1.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/baie1.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/Dune-du-Pilat.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/Dune-du-Pilat.jpg" alt="">
+                <a href="../assets-mai19/images/Dune-du-Pilat.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/Dune-du-Pilat.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute ascensionnel arcachon.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute ascensionnel arcachon.jpg" alt="">
+                <a href="../assets-mai19/images/parachute ascensionnel arcachon.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute ascensionnel arcachon.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-4.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-4.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-4.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-4.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-5.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-5.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-5.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-5.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-3.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-3.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-3.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-3.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-2.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-2.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-2.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-2.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-6.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-6.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-6.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-6.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-7.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-7.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-7.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-7.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-8.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-8.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-8.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-8.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-9.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-9.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-9.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-9.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-10.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-10.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-10.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-10.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-11.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-11.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-11.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-11.jpg" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-ascensionnel-12.jpg" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-ascensionnel-12.jpg" alt="">
+                <a href="../assets-mai19/images/parachute-ascensionnel-12.jpg" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-ascensionnel-12.jpg" alt="">
                 </a>
             </div>
 
             <!--images hautes-->
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-haute-1.JPG" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-haute-1.JPG" alt="">
+                <a href="../assets-mai19/images/parachute-haute-1.JPG" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-haute-1.JPG" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-haute-2.JPG" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-haute-2.JPG" alt="">
+                <a href="../assets-mai19/images/parachute-haute-2.JPG" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-haute-2.JPG" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-haute-3.JPG" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-haute-3.JPG" alt="">
+                <a href="../assets-mai19/images/parachute-haute-3.JPG" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-haute-3.JPG" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-haute-4.JPG" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-haute-4.JPG" alt="">
+                <a href="../assets-mai19/images/parachute-haute-4.JPG" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-haute-4.JPG" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-haute-5.JPG" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-haute-5.JPG" alt="">
+                <a href="../assets-mai19/images/parachute-haute-5.JPG" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-haute-5.JPG" alt="">
                 </a>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-haute-6.JPG" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-haute-6.JPG" alt="">
+                <a href="../assets-mai19/images/parachute-haute-6.JPG" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-haute-6.JPG" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="../assets/images/parachute-haute-7.JPG" target="_blank">
-                    <img class="img-fluid" src="../assets/images/parachute-haute-7.JPG" alt="">
+                <a href="../assets-mai19/images/parachute-haute-7.JPG" target="_blank">
+                    <img class="img-fluid" src="../assets-mai19/images/parachute-haute-7.JPG" alt="">
                 </a>
             </div>
 

@@ -9,7 +9,7 @@
 
 <!--SECTION BODY-->
 <section class="mbr-section content4 cid-qJWPCUBxW1 portfolioHeader" id="portfolioHeader"
-         style="background-image: url('../assets/images/texture2.jpg');">
+         style="background-image: url('../assets-mai19/images/texture2.jpg');">
     <div class="container" style="padding-bottom: 2rem;">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
@@ -36,7 +36,7 @@
                     </p>
                     <br>
                     <img class="align-center rounded mx-auto d-block" style="width: 50%;"
-                         src="../assets/images/zoriana-stakhniv-347487-unsplash.jpg" alt="evjg/f">
+                         src="../assets-mai19/images/zoriana-stakhniv-347487-unsplash.jpg" alt="evjg/f">
                     <br>
                     <a class="btn btn-sm btn-primary btn-book-flight display-4"
                        style="font-family: Fugaz One, sans-serif; color: #0d0d0d;"

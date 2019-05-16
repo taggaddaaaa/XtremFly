@@ -21,17 +21,17 @@ $cgv = $isUK ? "Terms and conditions" : "Conditions générales de ventes";
 					   href="https://www.instagram.com/xtremflyarcachon/"
 					   target="_blank"
 					   name="instagram"
-					><img style="width: 10%;" src="../../assets/images/insta.png" alt="instagram icon"></a>
+					><img style="width: 10%;" src="../../assets-mai19/images/insta.png" alt="instagram icon"></a>
 
 					<a style="padding:1rem;"
 					   href="https://www.facebook.com/XtremFly"
 					   target="_blank"
 					   name="facebook"
-					><img style="width: 10%;" src="../../assets/images/facebook.png" alt="facebook icon"></a>
+					><img style="width: 10%;" src="../../assets-mai19/images/facebook.png" alt="facebook icon"></a>
 
 					<a style="padding:1rem;" href="https://waze.com/ul?ll=44.664845,-1.168768" target="_blank"
 					   name="waze"
-					><img style="width: 10%;" src="../../assets/images/waze.png" alt="waze icon"></a>
+					><img style="width: 10%;" src="../../assets-mai19/images/waze.png" alt="waze icon"></a>
 				</div>
 
 				<h6 class="pb-3 mbr-fonts-style" style="font-size: 1rem; font-weight: 300; color: #327495;">

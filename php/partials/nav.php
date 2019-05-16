@@ -47,7 +47,7 @@ $reserver    = $isUK ? "BOOK A FLIGHT" : "RESERVER UN VOL";
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="<?= $anchor  ?>page-top">
-                         <img id="<?= $logoID ?>" src="../../assets/images/logo-XtremFly.png" alt="XtremFly"
+                         <img id="<?= $logoID ?>" src="../../assets-mai19/images/logo-XtremFly.png" alt="XtremFly"
                               title="logo XtremFly" style="height: 6rem;">
                     </a>
                 </span>
@@ -123,11 +123,11 @@ $reserver    = $isUK ? "BOOK A FLIGHT" : "RESERVER UN VOL";
             <!--Langues-->
 	        <?php if ( $isUK ) : ?>
                 <a class="btn btn-sm btn-white btn-lang-en display-4" href="../../index.php">
-                    <img src="../../assets/images/fr.png" alt="french site">
+                    <img src="../../assets-mai19/images/fr.png" alt="french site">
                 </a>
 	        <?php else: ?>
                 <a class="btn btn-sm btn-white btn-lang-en display-4" href="../../vues/index-UK.php">
-                    <img src="../../assets/images/uk.png" alt="english site">
+                    <img src="../../assets-mai19/images/uk.png" alt="english site">
                 </a>
 	        <?php endif; ?>
         </div>

@@ -41,7 +41,7 @@
                 <form class="mbr-form"
                       id="contactForm"
                       method="POST"
-                      action="/assets/js/contact_me.js"
+                      action="/assets-mai19/js/contact_me.js"
                       accept-charset="UTF-8"
                 >
 
@@ -288,7 +288,7 @@
                         En cas de vent trop fort, nous préférons annuler et décaler votre sortie pour que votre
                         expérience à nos côtés reste inoubliable.
                     </p>
-                    <img src="assets/images/voile.png" alt="parachute ascensionnel">
+                    <img src="assets-mai19/images/voile.png" alt="parachute ascensionnel">
                     <h5>VOILE DE PARACHUTE ASCENSIONNEL</h5>
                     <p>Nous utilisons différents modèles en fonction du poids des personnes et de la force du vent.
                         Les voiles sont fabriquées dans du nylon de haute qualité, résistantes aux UVs et à l’air marin.
@@ -297,7 +297,7 @@
                     </p>
                     <p>À VOUS LES SENSATIONS, EN TOUTE SÉCURITÉ !</p>
                     <hr>
-                    <img src="assets/images/boat1.jpg" style="width: 240px;" alt="bateau">
+                    <img src="assets-mai19/images/boat1.jpg" style="width: 240px;" alt="bateau">
                     <h5>NOTRE BATEAU PARACHUTE ASCENSIONNEL</h5>
                     <p>Pour vous hisser dans les airs à 50 mètres de haut au dessus du Bassin d’Arcachon, nous utilisons
                         un bateau toute dernière génération : Mercan de 34 pieds et un moteur Volvo de 430 CV.
@@ -306,14 +306,14 @@
                     </p>
                     <p>NOUS VOUS ATTENDONS À BORD !</p>
                     <hr>
-                    <img src="assets/images/harnais.png" alt="harnais de sécurité">
+                    <img src="assets-mai19/images/harnais.png" alt="harnais de sécurité">
                     <h5>HARNAIS POUR PARACHUTE ASCENSIONNEL</h5>
                     <p>Le harnais dans lequel vous volerez, est un modèle éprouvé pour son confort et sa solidité.
                         Il est couplé à une barre conçue pour 1, 2 ou 3 personnes.
                         Ce système de barre permet d’équilibrer le poids des personnes pour un grand confort de vol.
                     </p>
                     <hr>
-                    <img src="assets/images/gilet.png" alt="gilet de sauvetage">
+                    <img src="assets-mai19/images/gilet.png" alt="gilet de sauvetage">
                     <h5>UN GILET HOMOLOGUÉ POUR VOTRE SÉCURITÉ</h5>
                     <p>Avec <span style="font-size: 1.3rem;color: #0EFAFA">XTREMFLY</span>, la sécurité est importante !
                         Vous serez équipé d’un gilet de sauvetage certifié CE ISO qui convient à tous.

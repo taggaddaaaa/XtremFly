@@ -4,8 +4,8 @@ $isUK = strpos( $_SERVER['REQUEST_URI'], 'UK' );
 //Titre et accroche
 $tarifsTitle    = $isUK ? "PRICES" : "LES TARIFS";
 $tarifsSubtitle = $isUK
-	? "Offer yourselves a stroll in parasailing thanks to our online shop and<br>book your flight on<br><a href=\"tel:+33673824102\" title=\"+33673824102\" style=\"font-size: 2.3rem;\">+33 6 73 82 41 02</a>"
-	: "Offrez-vous une balade en parachute ascensionnel grâce à notre boutique en ligne et<br>réservez votre vol au<br><a href=\"tel:0673824102\" title=\"0673824102\" style=\"font-size: 2.3em;\">06 73 82 41 02</a>";
+	? "Offer yourselves a stroll in parasailing thanks to our online shop and<br>book your flight on<br><a href=\"tel:+33673824102\" title=\"+33673824102\" style=\"font-size: 2rem;\">+33 6 73 82 41 02</a>"
+	: "Offrez-vous une balade en parachute ascensionnel grâce à notre boutique en ligne et<br>réservez votre vol au<br><a href=\"tel:0673824102\" title=\"0673824102\" style=\"font-size: 2rem;\">06 73 82 41 02</a>";
 
 // Section 'taches'
 $childTitle    = $isUK ? "Session Child<br> - 12 years*" : "Session Enfant<br> - de 12ans*";
@@ -55,7 +55,7 @@ $asterisk = $isUK
         <div class="media-container-row">
             <div class="title col-12 col-md-11">
                 <h2 class="align-center pb-3 mbr-fonts-style display-2 text-white"><?= $tarifsTitle ?></h2>
-                <h4 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style"><?= $tarifsSubtitle ?></h4>
+                <h5 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style"><?= $tarifsSubtitle ?></h5>
             </div>
         </div>
         <!-- Section 'taches'-->
@@ -105,7 +105,7 @@ $asterisk = $isUK
         <div class="media-container-row">
             <div class="title col-12 col-md-10">
                 <p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><?= $pay ?></p>
-                <img class="align-center" style="width: 90%;" src="../../assets/images/moyen-de-paiement.png"
+                <img class="align-center" style="width: 90%;" src="../../assets-mai19/images/moyen-de-paiement.png"
                      alt="moyens de paiement acceptés">
             </div>
         </div>

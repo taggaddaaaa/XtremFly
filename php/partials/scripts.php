@@ -135,26 +135,26 @@ $cookiesMessage = $isUK
 <!--END Scripts Google Maps-->
 
 <script type="text/javascript" src="https://unpkg.com/jquery@3.2.1/dist/jquery.js"></script>
-<script src="./../../assets/libraries/popper/popper.min.js"></script>
-<script src="./../../assets/libraries/tether/tether.min.js"></script>
-<script src="./../../assets/libraries/bootstrap/js/bootstrap.min.js"></script>
-<script src="./../../assets/libraries/smoothscroll/smooth-scroll.js"></script>
-<script src="./../../assets/libraries/cookies-alert-plugin/cookies-alert-core.js"></script>
-<script src="./../../assets/libraries/cookies-alert-plugin/cookies-alert-script.js"></script>
-<script src="./../../assets/libraries/dropdown/js/script.min.js"></script>
-<script src="./../../assets/libraries/viewportchecker/jquery.viewportchecker.js"></script>
-<script src="./../../assets/libraries/parallax/jarallax.min.js"></script>
-<script src="./../../assets/libraries/sociallikes/social-likes.js"></script>
-<script src="./../../assets/libraries/touchswipe/jquery.touch-swipe.min.js"></script>
+<script src="../../assets-mai19/libraries/popper/popper.min.js"></script>
+<script src="../../assets-mai19/libraries/tether/tether.min.js"></script>
+<script src="../../assets-mai19/libraries/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../assets-mai19/libraries/smoothscroll/smooth-scroll.js"></script>
+<script src="../../assets-mai19/libraries/cookies-alert-plugin/cookies-alert-core.js"></script>
+<script src="../../assets-mai19/libraries/cookies-alert-plugin/cookies-alert-script.js"></script>
+<script src="../../assets-mai19/libraries/dropdown/js/script.min.js"></script>
+<script src="../../assets-mai19/libraries/viewportchecker/jquery.viewportchecker.js"></script>
+<script src="../../assets-mai19/libraries/parallax/jarallax.min.js"></script>
+<script src="../../assets-mai19/libraries/sociallikes/social-likes.js"></script>
+<script src="../../assets-mai19/libraries/touchswipe/jquery.touch-swipe.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="./../../assets/libraries/slick/slick/slick.min.js"></script>
-<script src="./../../assets/libraries/theme/js/script.js"></script>
+<script type="text/javascript" src="../../assets-mai19/libraries/slick/slick/slick.min.js"></script>
+<script src="../../assets-mai19/libraries/theme/js/script.js"></script>
 <!--Personal script: Always put after jquery and slick scripts-->
-<script src="./../../assets/js/index.js"></script>
+<script src="../../assets-mai19/js/index.js"></script>
 
 <!-- Contact Form JavaScript -->
-<script src="./../../assets/js/jqBootstrapValidation.js"></script>
-<script src="./../../assets/js/contact_me.js"></script>
+<script src="../../assets-mai19/js/jqBootstrapValidation.js"></script>
+<script src="../../assets-mai19/js/contact_me.js"></script>
 
 <input name="animation" type="hidden">
 <input name="cookieData" type="hidden"

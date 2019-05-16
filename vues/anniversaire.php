@@ -9,7 +9,7 @@
 
 <!--SECTION BODY-->
 <section class="mbr-section content4 cid-qJWPCUBxW1 portfolioHeader" id="portfolioHeader"
-         style="background-image: url('../assets/images/texture2.jpg');">
+         style="background-image: url('../assets-mai19/images/texture2.jpg');">
     <div class="container" style="padding-bottom: 2rem;">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
@@ -29,7 +29,7 @@
                     <p>Rien n’est trop sensationnel pour votre anniversaire.</p>
                     <br>
                     <img class="align-center rounded mx-auto d-block" style="width: 50%;"
-                         src="../assets/images/birthday.jpg" alt="anniveraire">
+                         src="../assets-mai19/images/birthday.jpg" alt="anniveraire">
                     <br>
                     <a class="btn btn-sm btn-primary btn-book-flight display-7"
                        style="font-family: Fugaz One, sans-serif; color: #0d0d0d;"

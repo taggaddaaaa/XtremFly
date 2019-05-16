@@ -22,7 +22,7 @@
                              title="${data.data[x].caption.text}"
                              src="${data.data[x].images.standard_resolution.url}"
                         ></a>`;
-            console.log(data.data[x]);
+            // console.log(data.data[x]);
             document
                 .getElementById("instagram-feed")
                 .insertAdjacentHTML("beforeend", temp);

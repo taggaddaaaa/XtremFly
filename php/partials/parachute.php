@@ -75,10 +75,10 @@ $parachuteTexte    = $isUK
                 <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
                     <div class="card-wrapper">
                         <a class="card-overlay" href="#modal-1" data-toggle="modal">
-                            <img class="overlay-img" src="../../assets/images/plus.svg" alt="en savoir plus">
+                            <img class="overlay-img" src="../../assets-mai19/images/plus.svg" alt="en savoir plus">
                         </a>
                         <div class="card-img">
-                            <img src="../../assets/images/DSC_8580.jpg" alt="bateau à l'eau et parachute ascensionnel"
+                            <img src="../../assets-mai19/images/DSC_8580.jpg" alt="bateau à l'eau et parachute ascensionnel"
                                  title="">
                         </div>
                         <div class="card-box">
@@ -89,10 +89,10 @@ $parachuteTexte    = $isUK
                 <!--une vue exceptionnelle-->
                 <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
                     <div class="card-wrapper"><a class="card-overlay" href="#modal-2" data-toggle="modal">
-                            <img class="overlay-img" src="../../assets/images/plus.svg" alt="en savoir plus">
+                            <img class="overlay-img" src="../../assets-mai19/images/plus.svg" alt="en savoir plus">
                         </a>
                         <div class="card-img">
-                            <img src="../../assets/images/DSCN0252.jpg" alt="Cabanes tchanquées"
+                            <img src="../../assets-mai19/images/DSCN0252.jpg" alt="Cabanes tchanquées"
                                  title="cabanes tchanquées">
                         </div>
                         <div class="card-box">
@@ -104,10 +104,10 @@ $parachuteTexte    = $isUK
                 <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
                     <div class="card-wrapper">
                         <a class="card-overlay" href="#modal-3" data-toggle="modal">
-                            <img class="overlay-img" src="../../assets/images/plus.svg" alt="en savoir plus">
+                            <img class="overlay-img" src="../../assets-mai19/images/plus.svg" alt="en savoir plus">
                         </a>
                         <div class="card-img">
-                            <img src="../../assets/images/IMG-2062.jpg" alt="Amies" title="amies">
+                            <img src="../../assets-mai19/images/IMG-2062.jpg" alt="Amies" title="amies">
                         </div>
                         <div class="card-box">
                             <h4 class="card-title pb-3 mbr-fonts-style display-7"><?= $solo ?></h4>
@@ -118,10 +118,10 @@ $parachuteTexte    = $isUK
                 <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
                     <div class="card-wrapper">
                         <a class="card-overlay" href="#modal-4" data-toggle="modal">
-                            <img class="overlay-img" src="../../assets/images/plus.svg" alt="en savoir plus">
+                            <img class="overlay-img" src="../../assets-mai19/images/plus.svg" alt="en savoir plus">
                         </a>
                         <div class="card-img">
-                            <img src="../../assets/images/DSC_8104.jpg" alt="En toute sécurité" title="">
+                            <img src="../../assets-mai19/images/DSC_8104.jpg" alt="En toute sécurité" title="">
                         </div>
                         <div class="card-box">
                             <h4 class="card-title pb-3 mbr-fonts-style display-7"><?= $securite ?></h4>
@@ -132,10 +132,10 @@ $parachuteTexte    = $isUK
                 <div class="card-wrapper col-md-3 col-sm-6" style="background-color: white; padding:1em; margin:1em;">
                     <div class="card-wrapper">
                         <a class="card-overlay" href="#modal-5" data-toggle="modal">
-                            <img class="overlay-img" src="../../assets/images/plus.svg" alt="en savoir plus">
+                            <img class="overlay-img" src="../../assets-mai19/images/plus.svg" alt="en savoir plus">
                         </a>
                         <div class="card-img">
-                            <img src="../../assets/images/DSC_8161.jpg" alt="Bon à savoir" title="">
+                            <img src="../../assets-mai19/images/DSC_8161.jpg" alt="Bon à savoir" title="">
                         </div>
                         <div class="card-box">
                             <h4 class="card-title pb-3 mbr-fonts-style display-7"><?= $savoir ?></h4>

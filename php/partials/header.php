@@ -15,7 +15,7 @@ $headerTitle = $isUK ? "Fly away Above the Bay of Arcachon" : "Envolez-Vous Au D
                 </h1>
             </div>
             <!-- Logo -->
-            <img src="../../assets/images/logo-XtremFly.png"
+            <img src="../../assets-mai19/images/logo-XtremFly.png"
                  alt="XtremFly"
                  title="logo XtremFly"
                  style="height: 10rem;">

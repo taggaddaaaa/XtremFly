@@ -9,7 +9,7 @@
 
 <!--SECTION GROUPES ET CE-->
 <section class="mbr-section content4 cid-qJWPCUBxW1 portfolioHeader" id="portfolioHeader"
-         style="background-image: url('../assets/images/texture2.jpg');">
+         style="background-image: url('../assets-mai19/images/texture2.jpg');">
     <div class="container" style="padding-bottom: 2rem;">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
@@ -89,37 +89,37 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 mb-4">
 
-                <img class="img-fluid" src="../assets/images/ce-dune.jpeg" alt="dunes">
+                <img class="img-fluid" src="../assets-mai19/images/ce-dune.jpeg" alt="dunes">
 
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
 
-                <img class="img-fluid" src="../assets/images/cata.JPG" alt="catamaran">
+                <img class="img-fluid" src="../assets-mai19/images/cata.JPG" alt="catamaran">
 
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
 
-                <img class="img-fluid" src="../assets/images/12345.png" alt="xtremfly">
+                <img class="img-fluid" src="../assets-mai19/images/12345.png" alt="xtremfly">
 
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
 
-                <img class="img-fluid" src="../assets/images/1234567.jpg" alt="paysage">
+                <img class="img-fluid" src="../assets-mai19/images/1234567.jpg" alt="paysage">
 
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
 
-                <img class="img-fluid" src="../assets/images/baie1.jpg" alt="baie">
+                <img class="img-fluid" src="../assets-mai19/images/baie1.jpg" alt="baie">
 
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
 
-                <img class="img-fluid" src="../assets/images/Dune-du-Pilat.jpg" alt="dune du pilat">
+                <img class="img-fluid" src="../assets-mai19/images/Dune-du-Pilat.jpg" alt="dune du pilat">
 
             </div>
         </div>
@@ -154,7 +154,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="../assets/js/contact_me_pro.js"
+                    <form action="../assets-mai19/js/contact_me_pro.js"
                           id="contactFormPro"
                           class="mbr-form was-validated"
                           method="POST"

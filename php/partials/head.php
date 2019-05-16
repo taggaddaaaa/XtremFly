@@ -93,26 +93,26 @@ switch ( true ) {
     <meta property="og:type" content="website"/>
 
 
-    <link rel="shortcut icon" href="<?= $urlXtremfly ?>/assets/images/favicon.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="<?= $urlXtremfly ?>/assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= $urlXtremfly ?>/assets-mai19/images/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="<?= $urlXtremfly ?>/assets-mai19/images/favicon.png" type="image/x-icon">
 
     <!--manifest-->
     <link rel="manifest" href="/manifest.json">
 
     <!--Stylesheet imports-->
-    <link rel="stylesheet" href="../../assets/libraries/mobirise-icons/mobirise-icons.css">
-    <link rel="stylesheet" href="../../assets/libraries/tether/tether.min.css">
-    <link rel="stylesheet" href="../../assets/libraries/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../assets/libraries/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="../../assets/libraries/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="../../assets/libraries/dropdown/css/style.css">
-    <link rel="stylesheet" href="../../assets/libraries/socicon/css/styles.css">
-    <link rel="stylesheet" href="../../assets/libraries/animatecss/animate.min.css">
-    <link rel="stylesheet" href="../../assets/libraries/theme/css/style.css">
-    <link rel="stylesheet" href="../../assets/libraries/mobirise/css/mbr-additional.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/libraries/slick/slick/slick.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/libraries/slick/slick/slick-theme.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/tether/tether.min.css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/dropdown/css/style.css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/socicon/css/styles.css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/animatecss/animate.min.css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/theme/css/style.css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/mobirise/css/mbr-additional.css" type="text/css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/slick/slick/slick.css" type="text/css">
+    <link rel="stylesheet" href="../../assets-mai19/libraries/slick/slick/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="../../assets-mai19/css/style.css">
 
     <!-- Fonts imports -->
     <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Chau+Philomene+One|Concert+One|Fugaz+One|Mogra|Patrick+Hand+SC|Righteous|Shrikhand|Walter+Turncoat"

@@ -40,7 +40,7 @@
                 <form class="mbr-form"
                       id="contactFormUK"
                       method="POST"
-                      action="../assets/js/contact_me_uk.js"
+                      action="../assets-mai19/js/contact_me_uk.js"
                       accept-charset="UTF-8"
                 >
 
@@ -276,7 +276,7 @@
                         In case of too strong wind, we prefer to cancel and to move your exit so that your
                         experience by our side unforgettable rest.
                     </p>
-                    <img src="../assets/images/voile.png" alt="parasailing">
+                    <img src="../assets-mai19/images/voile.png" alt="parasailing">
                     <h5>OUR BOAT OF PARASAILING</h5>
                     <p>
                         We use various models according to the weight of the people and the strength of the wind.
@@ -286,7 +286,7 @@
                     </p>
                     <p>SENSATIONS, SAFELY !</p>
                     <hr>
-                    <img src="../assets/images/boat.png" alt="boat">
+                    <img src="../assets-mai19/images/boat.png" alt="boat">
                     <h5>VEIL OF PARASAILING</h5>
 
                     <p> To raise you in the air 50 meters away from top above the Bay of Arcachon, we use a boat any
@@ -296,14 +296,14 @@
                     </p>
                     <p>WE WAIT FOR YOU ON BOARD!</p>
                     <hr>
-                    <img src="../assets/images/harnais.png" alt="HERNESS OF PARASAILING">
+                    <img src="../assets-mai19/images/harnais.png" alt="HERNESS OF PARASAILING">
                     <h5>HERNESS OF PARASAILING</h5>
                     <p>The harness in which you will steal, is a model experienced for its comfort and its solidity.
                         It is coupled with a bar conceived for 1,2 or 3 people.
                         This system of bar allows to balance the weight of the people for a big comfort of flight.
                     </p>
                     <hr>
-                    <img src="../assets/images/gilet.png" alt="safety vest">
+                    <img src="../assets-mai19/images/gilet.png" alt="safety vest">
                     <h5>A VEST APPROVED FOR YOUR SAFETY</h5>
                     <p>With <span style="font-size: 1.3rem;color: #0EFAFA">XTREMFLY</span>, security is important!
                         You will be equipped with a certified life jacket CE ISO which suits to all.
