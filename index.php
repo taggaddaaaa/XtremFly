@@ -191,24 +191,7 @@
 </section>
 
 <!--SECTION HEADER-->
-<section class="cid-qJWKGr3dEn mbr-fullscreen mbr-parallax-background" id="header">
-    <div class="container align-center">
-        <div class="row justify-content-md-center">
-            <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1"
-                    style="color:#ffffff;">
-                    Envolez-Vous Au Dessus Du Bassin D'Arcachon
-                </h1>
-            </div>
-            <img src="assets/images/logo-XtremFly.png" alt="XtremFly" title="logo XtremFly" style="height: 10rem;">
-        </div>
-    </div>
-    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#parachute">
-            <i class="mbri-down mbr-iconfont"></i>
-        </a>
-    </div>
-</section>
+<?php include "./php/partials/header.php" ?>
 
 <!--TITRE PARACHUTE ASCENSIONNEL-->
 <section class="mbr-section content4 cid-qJWPCUBxW1" id="parachute">
@@ -580,12 +563,12 @@
 </section>
 
 <!--SECTION FOOTER ET RS-->
-<?php include "./php/partials/footer.php"?>
+<?php include "./php/partials/footer.php" ?>
 
 <!------------------------------------------->
 <!-- BUTTON STICK ON BOTTOM ON MOBILE SIZE -->
 <!------------------------------------------->
-<?php include "./php/partials/stickyBtn.php"?>
+<?php include "./php/partials/stickyBtn.php" ?>
 
 <!------------------------------------------->
 <!--                MODALS                 -->
