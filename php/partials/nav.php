@@ -2,15 +2,18 @@
 $url    = $_SERVER['REQUEST_URI'];
 $isUK   = strpos( $url, 'UK' );
 $logoID = "logoPrincipal";
+$anchor = "#";
 
 switch ( true ) {
 	case strpos( $url, 'pros' ):
 	case strpos( $url, 'evj' ):
 	case strpos( $url, 'anniversaire' ):
 		$logoID = "logoGroups";
+		$anchor = "../../index.php/#";
 		break;
 	case strpos( $url, 'UK' ):
 		$logoID = "logoUK";
+		$anchor = "../../index.php/#";
 		break;
 }
 
@@ -43,7 +46,7 @@ $reserver    = $isUK ? "BOOK A FLIGHT" : "RESERVER UN VOL";
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="#page-top">
+                    <a href="<?= $anchor  ?>page-top">
                          <img id="<?= $logoID ?>" src="../../assets/images/logo-XtremFly.png" alt="XtremFly"
                               title="logo XtremFly" style="height: 6rem;">
                     </a>
@@ -55,17 +58,17 @@ $reserver    = $isUK ? "BOOK A FLIGHT" : "RESERVER UN VOL";
             <ul class="navbar-nav">
                 <!--section parachute ascensionnel-->
                 <li class="nav-item">
-                    <a class="nav-link link display-4" href="#parachute"><?= $parachute ?></a>
+                    <a class="nav-link link display-4" href="<?= $anchor  ?>parachute"><?= $parachute ?></a>
                 </li>
                 <!--section departs-->
                 <li class="nav-item">
-                    <a class="nav-link link display-4" href="#starts"><?= $departs ?></a>
+                    <a class="nav-link link display-4" href="<?= $anchor  ?>starts"><?= $departs ?></a>
                 </li>
                 <!--dropdown groupes-->
 				<?php if ( ! $isUK ) : ?>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle"
-                           href="#"
+                           href="<?= $anchor  ?>"
                            id="navbarDropdown"
                            role="button"
                            data-toggle="dropdown"
@@ -81,12 +84,12 @@ $reserver    = $isUK ? "BOOK A FLIGHT" : "RESERVER UN VOL";
                 <?php endif; ?>
                 <!--section tarifs-->
                 <li class="nav-item">
-                    <a class="nav-link link display-4" href="#price"><?= $tarifs ?></a>
+                    <a class="nav-link link display-4" href="<?= $anchor  ?>price"><?= $tarifs ?></a>
                 </li>
                 <!--dropdown partenaires-->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"
-                       href="#"
+                       href="<?= $anchor  ?>"
                        id="dropdownPartners"
                        role="button"
                        data-toggle="dropdown"
@@ -106,25 +109,27 @@ $reserver    = $isUK ? "BOOK A FLIGHT" : "RESERVER UN VOL";
                 </li>
                 <!--section contact-->
                 <li class="nav-item">
-                    <a class="nav-link link display-4" href="#contact">CONTACT</a>
+                    <a class="nav-link link display-4" href="<?= $anchor  ?>contact">CONTACT</a>
                 </li>
             </ul>
         </div>
         <div class="navbar-buttons mbr-section-btn mbr-section-btn-nav">
+            <!--boutique-->
             <a class="btn btn-sm btn-primary btn-book-flight display-4"
                style="font-family: Fugaz One, sans-serif; color: #0d0d0d; font-size: 20px;"
                href="https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF"
                onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"
             ><?= $reserver ?></a>
-			<?php if ( $isUK ) : ?>
-                <a class="btn btn-sm btn-white btn-lang-en display-4" href="../index.php">
+            <!--Langues-->
+	        <?php if ( $isUK ) : ?>
+                <a class="btn btn-sm btn-white btn-lang-en display-4" href="../../index.php">
                     <img src="../../assets/images/fr.png" alt="french site">
                 </a>
-			<?php else: ?>
-                <a class="btn btn-sm btn-white btn-lang-en display-4" href="vues/index-UK.php">
+	        <?php else: ?>
+                <a class="btn btn-sm btn-white btn-lang-en display-4" href="../../vues/index-UK.php">
                     <img src="../../assets/images/uk.png" alt="english site">
                 </a>
-			<?php endif; ?>
+	        <?php endif; ?>
         </div>
     </nav>
 </section>
