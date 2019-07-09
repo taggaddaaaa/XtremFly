@@ -15,17 +15,17 @@
     }
 
     getData().then(data => {
-        for (x = 0; x < count; x++) {
-            let temp = `<a class="animation" target="_blank" href="${data.data[x].link}">
+        for (let x = 0; x < count; x++) {
+            let template = `<div><a class="animation" target="_blank" href="${data.data[x].link}">
                         <img alt="insta pic from feed"
                              id="${data.data[x].id}"
                              title="${data.data[x].caption.text}"
                              src="${data.data[x].images.standard_resolution.url}"
-                        ></a>`;
+                        ></a></div>`;
             // console.log(data.data[x]);
             document
                 .getElementById("instagram-feed")
-                .insertAdjacentHTML("beforeend", temp);
+                .insertAdjacentHTML("beforeend", template);
         }
     });
 </script>
