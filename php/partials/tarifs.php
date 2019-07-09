@@ -17,7 +17,7 @@ $adultTitle    = $isUK ? "Session Adult<br>12 years* and more" : "Session Adulte
 $adultSubtitle = $isUK
 	? "Valid for a flight in parasailing for 1 inclusive adult from up to 12 years old.<br/><br/>Flight duration:<br>10 to 15 minutes<br><br>"
 	: "Valable pour un vol en parachute ascensionnel pour 1 adulte de plus de 12 ans*.<br><br>Durée du vol:<br>10 à 15 minutes<br><br>";
-$adultOption   = $isUK ? "+ 20 € flight in solo option**" : "Session Enfant<br> - de 12ans*";
+$adultOption   = $isUK ? "+ 20 € flight in solo option**" : "+ 20 € l'option vol en Solo**";
 
 $loversTitle    = $isUK ? "SUNSET LOVER<br>more than 18 years old***" : "SUNSET LOVER<br>+ de 18ans***";
 $loversSubtitle = $isUK
