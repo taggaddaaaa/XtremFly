@@ -395,7 +395,7 @@
                         6.2 Toute commande de prestations vaut acceptation du prix
                     </p>
                     <hr>
-                    <p style="text-align:justify"><strong>rticle 7: APTITUDE MÉDICALE </strong>
+                    <p style="text-align:justify"><strong>Article 7: APTITUDE MÉDICALE </strong>
                         <br/>
                         7.1 Vous devez être en bonne forme physique, ne pas avoir eu récemment d'accident. A titre
                         indicatif et non exhaustif, la prise de certains médicaments ou tranquillisants, les maladies
