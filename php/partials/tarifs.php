@@ -21,8 +21,10 @@ $adultOption   = $isUK ? "+ 20 € flight in solo option**" : "+ 20 € l'option
 
 $loversTitle    = $isUK ? "SUNSET LOVER<br>more than 18 years old***" : "SUNSET LOVER<br>+ de 18ans***";
 $loversSubtitle = $isUK
-	? "Flight for two people at sunset<br/>With cocktail for two offered<br/><br/>Flight duration:<br>10 to 15 minutes<br><br>"
-	: "Vol pour deux personnes au coucher du soleil<br/>Avec un cocktail pour deux personnes offert<br/><br/>Durée du vol:<br>10 à 15 minutes<br><br>";
+//	? "Flight for two people at sunset<br/>With cocktail for two offered<br/><br/>Flight duration:<br>10 to 15 minutes<br><br>"
+	? "Flight for two people at sunset<br/>With cocktail for two<br/>and a video offered.<br/><br/>Flight duration:<br>10 to 15 minutes<br><br>"
+//	: "Vol pour deux personnes au coucher du soleil<br/>Avec un cocktail pour deux personnes offert<br/><br/>Durée du vol:<br>10 à 15 minutes<br><br>";
+	: "Vol pour deux personnes au coucher du soleil<br/>Un cocktail pour deux personnes<br/>et une vidéo offerts.<br/><br/>Durée du vol:<br>10 à 15 minutes<br><br>";
 
 //Paragraphe et moyens de paiements
 $pay = $isUK
@@ -41,10 +43,10 @@ Il est conseillé de nous téléphoner avant de vous déplacer afin de connaitre
 
 //asterisques
 $asterisk = $isUK
-	? "*The children under 12 years must be necessarily accompanied by a grown-up person of more than 18 years.<br>
+	? "*The children under 12 years must be necessarily accompanied by a grown-up person of more than 18 years who has paid his own ticket.<br>
 **Would like refer to our <a href=\"#modal-legacy\" data-toggle=\"modal\">general terms of sale</a>.<br>
 ***Price valid for people over 18 years. Alcohol abuse is dangerous for health. To consume with moderation."
-	: "*Les enfants de moins de 12 ans doivent être accompagnés obligatoirement d'une personne adulte de plus de 18 ans.<br>
+	: "*Les enfants de moins de 12 ans doivent être accompagnés OBLIGATOIREMENT d'une personne adulte de plus de 18 ans ayant lui-même acheté son billet.<br>
 **Veuillez-vous référer à nos <a href=\"#modal-legacy\" data-toggle=\"modal\">conditions générales de ventes</a>.<br>
 ***Tarif valable pour des personnes de + de 18 ans. L'abus d'alcool est dangereux pour la santé. À consommer avec modération.";
 ?>
@@ -82,7 +84,7 @@ $asterisk = $isUK
                         <a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF"
                            class="display-4 text-turquoise"
                            onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=310469&lg_billetterie=1&code=66219&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"
-                        >55 €</a>
+                        >55 €**</a>
                     </div>
                     <p><?= $adultOption ?></p>
                 </div>
